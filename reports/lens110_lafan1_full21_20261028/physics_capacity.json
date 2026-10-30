@@ -1,0 +1,10 @@
+{
+  "contact_capacity_total": 524288,
+  "constraint_capacity_per_world": 512,
+  "ccd_capacity_total": 262144,
+  "peak_contacts_total": 20242,
+  "peak_constraints_per_world": 120,
+  "peak_broadphase_candidates_total": 20360,
+  "checked_control_steps": 28811,
+  "overflow_flags": 0
+}

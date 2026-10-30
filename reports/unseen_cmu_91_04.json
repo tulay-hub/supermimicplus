@@ -1,0 +1,47 @@
+{
+  "name": "cmu_91_04",
+  "source": "${WORKSPACE_ROOT}/projects/lens110_yahmp_50000_repro_20260923/assets/motions/lens110_smoothed_grounded/omomo_amass_selfcollision_le10mm/cmu_91_04.npz",
+  "source_sha256": "c4fc9c95d11bedf26200a6906e9590abd7435114636e214af806329723dbc345",
+  "checkpoint": "runs/lens110_lafan1_yahmp113_full21_30000_20261029/ckpt_030000.pt",
+  "checkpoint_sha256": "d7617686d2b564c5b5c6190082309d313ec2a1187c7bd0e9741191a7491cdefe",
+  "checkpoint_iteration": 30000,
+  "backend": "mjwarp",
+  "seed": 3623939731,
+  "training_reference_count": 153,
+  "training_library_modified": false,
+  "changed_evaluation_contract_fields": [
+    "env.commands.motion.motion_files",
+    "env.commands.motion.motion_sha256"
+  ],
+  "reference_sha256": "e4633469de32391304d07180cc7c14591c4e7ba56ee43aad01a70ab8dc1cd787",
+  "reference_seconds": 18.0,
+  "simulated_seconds": 18.0,
+  "hard_termination": false,
+  "completed_full_reference": true,
+  "norm_return": 0.918806697593795,
+  "mean_global_body_position_error_m": 0.10592449371082087,
+  "mean_root_relative_body_position_error_m": 0.021241421087438032,
+  "maximum_root_xy_error_m": 0.22470997273921967,
+  "physics_capacity": {
+    "contact_capacity_total": 128,
+    "constraint_capacity_per_world": 512,
+    "ccd_capacity_total": 64,
+    "peak_contacts_total": 8,
+    "peak_constraints_per_world": 32,
+    "peak_broadphase_candidates_total": 4,
+    "checked_control_steps": 900,
+    "overflow_flags": 0
+  },
+  "all_policy_actions_and_states_finite": true,
+  "global_ghost": true,
+  "initialization": "reference first-frame state; no action/observation noise",
+  "boundary": "One randomly selected held-out clip, same physics backend; not a general unseen-motion or hardware guarantee.",
+  "video": "runs/lens110_lafan1_yahmp113_full21_30000_20261029/previews/unseen_random_20261030_100119/unseen30000_cmu_91_04_meshes.mp4",
+  "video_frames": 451,
+  "render_scene": "runs/lens110_lafan1_full21_20261028/previews/RENDER_ONLY_lens110_mesh/scene_supermimic.xml",
+  "playback": {
+    "player": "ffplay",
+    "pid": 2035786,
+    "started": true
+  }
+}

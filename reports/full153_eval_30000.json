@@ -1,0 +1,817 @@
+{
+  "norm_return": 0.9013652801513672,
+  "norm_return_framew": 0.8568717241287231,
+  "n_failed": 0,
+  "failed": [],
+  "per_clip": {
+    "dance1_subject1": {
+      "norm_return": 0.8289135098457336,
+      "steps": 6701,
+      "failed": false
+    },
+    "dance1_subject2": {
+      "norm_return": 0.8231418132781982,
+      "steps": 6926,
+      "failed": false
+    },
+    "dance1_subject3": {
+      "norm_return": 0.8693481683731079,
+      "steps": 6606,
+      "failed": false
+    },
+    "dance2_subject1": {
+      "norm_return": 0.8261327147483826,
+      "steps": 11768,
+      "failed": false
+    },
+    "dance2_subject2": {
+      "norm_return": 0.8433446288108826,
+      "steps": 11609,
+      "failed": false
+    },
+    "dance2_subject3": {
+      "norm_return": 0.8676882386207581,
+      "steps": 11359,
+      "failed": false
+    },
+    "dance2_subject4": {
+      "norm_return": 0.8283741474151611,
+      "steps": 11765,
+      "failed": false
+    },
+    "dance2_subject5": {
+      "norm_return": 0.846642255783081,
+      "steps": 11489,
+      "failed": false
+    },
+    "fallAndGetUp1_subject1": {
+      "norm_return": 0.8168588876724243,
+      "steps": 8490,
+      "failed": false
+    },
+    "fallAndGetUp1_subject4": {
+      "norm_return": 0.7863600850105286,
+      "steps": 8474,
+      "failed": false
+    },
+    "fallAndGetUp1_subject5": {
+      "norm_return": 0.8133512139320374,
+      "steps": 8511,
+      "failed": false
+    },
+    "fallAndGetUp2_subject2": {
+      "norm_return": 0.8440654277801514,
+      "steps": 8257,
+      "failed": false
+    },
+    "fallAndGetUp2_subject3": {
+      "norm_return": 0.8651333451271057,
+      "steps": 8214,
+      "failed": false
+    },
+    "fallAndGetUp3_subject1": {
+      "norm_return": 0.8312515020370483,
+      "steps": 5148,
+      "failed": false
+    },
+    "fight1_subject2": {
+      "norm_return": 0.8596311807632446,
+      "steps": 12462,
+      "failed": false
+    },
+    "fight1_subject3": {
+      "norm_return": 0.823594868183136,
+      "steps": 12356,
+      "failed": false
+    },
+    "fight1_subject5": {
+      "norm_return": 0.844718873500824,
+      "steps": 12342,
+      "failed": false
+    },
+    "fightAndSports1_subject1": {
+      "norm_return": 0.816983163356781,
+      "steps": 12402,
+      "failed": false
+    },
+    "fightAndSports1_subject4": {
+      "norm_return": 0.8527437448501587,
+      "steps": 12514,
+      "failed": false
+    },
+    "jumps1_subject1": {
+      "norm_return": 0.848929226398468,
+      "steps": 12323,
+      "failed": false
+    },
+    "jumps1_subject2": {
+      "norm_return": 0.7974857091903687,
+      "steps": 12280,
+      "failed": false
+    },
+    "jumps1_subject5": {
+      "norm_return": 0.821462869644165,
+      "steps": 12278,
+      "failed": false
+    },
+    "run1_subject2": {
+      "norm_return": 0.827936053276062,
+      "steps": 12035,
+      "failed": false
+    },
+    "run1_subject5": {
+      "norm_return": 0.8100423812866211,
+      "steps": 11963,
+      "failed": false
+    },
+    "run2_subject1": {
+      "norm_return": 0.8381587266921997,
+      "steps": 12339,
+      "failed": false
+    },
+    "run2_subject4": {
+      "norm_return": 0.8358640074729919,
+      "steps": 12319,
+      "failed": false
+    },
+    "sprint1_subject2": {
+      "norm_return": 0.8187451362609863,
+      "steps": 13810,
+      "failed": false
+    },
+    "sprint1_subject4": {
+      "norm_return": 0.8103110194206238,
+      "steps": 13883,
+      "failed": false
+    },
+    "walk1_subject1": {
+      "norm_return": 0.8892526626586914,
+      "steps": 13068,
+      "failed": false
+    },
+    "walk1_subject2": {
+      "norm_return": 0.8883903622627258,
+      "steps": 13081,
+      "failed": false
+    },
+    "walk1_subject5": {
+      "norm_return": 0.8852519392967224,
+      "steps": 13083,
+      "failed": false
+    },
+    "walk2_subject1": {
+      "norm_return": 0.888075053691864,
+      "steps": 12006,
+      "failed": false
+    },
+    "walk2_subject3": {
+      "norm_return": 0.8781930804252625,
+      "steps": 11920,
+      "failed": false
+    },
+    "walk2_subject4": {
+      "norm_return": 0.8896613717079163,
+      "steps": 11928,
+      "failed": false
+    },
+    "walk3_subject1": {
+      "norm_return": 0.8709191679954529,
+      "steps": 12346,
+      "failed": false
+    },
+    "walk3_subject2": {
+      "norm_return": 0.9136714935302734,
+      "steps": 12354,
+      "failed": false
+    },
+    "walk3_subject3": {
+      "norm_return": 0.8774496912956238,
+      "steps": 12352,
+      "failed": false
+    },
+    "walk3_subject4": {
+      "norm_return": 0.8742879033088684,
+      "steps": 12370,
+      "failed": false
+    },
+    "walk3_subject5": {
+      "norm_return": 0.8538490533828735,
+      "steps": 12334,
+      "failed": false
+    },
+    "walk4_subject1": {
+      "norm_return": 0.9021481871604919,
+      "steps": 8196,
+      "failed": false
+    },
+    "accad_C6___stand_to_run_backwards": {
+      "norm_return": 0.9480595588684082,
+      "steps": 373,
+      "failed": false
+    },
+    "accad_E2___Turn_around_left": {
+      "norm_return": 0.9422236084938049,
+      "steps": 653,
+      "failed": false
+    },
+    "accad_E5___retreat": {
+      "norm_return": 0.9315662384033203,
+      "steps": 385,
+      "failed": false
+    },
+    "accad_B7___walk_backwards_turn_forwards": {
+      "norm_return": 0.8973852396011353,
+      "steps": 432,
+      "failed": false
+    },
+    "bmlhandball_S07_Expert_Trial_upper_left_225": {
+      "norm_return": 0.9114430546760559,
+      "steps": 373,
+      "failed": false
+    },
+    "bmlhandball_S07_Expert_Trial_upper_right_180": {
+      "norm_return": 0.9036920070648193,
+      "steps": 436,
+      "failed": false
+    },
+    "bmlmovi_Subject_80_F_18": {
+      "norm_return": 0.9523009061813354,
+      "steps": 400,
+      "failed": false
+    },
+    "cmu_49_19": {
+      "norm_return": 0.8497464656829834,
+      "steps": 398,
+      "failed": false
+    },
+    "cnrs_288__03_R_2_stageii": {
+      "norm_return": 0.8668872117996216,
+      "steps": 392,
+      "failed": false
+    },
+    "dfaust_50002_punching": {
+      "norm_return": 0.9567186236381531,
+      "steps": 250,
+      "failed": false
+    },
+    "dfaust_50002_running_on_spot": {
+      "norm_return": 0.9212761521339417,
+      "steps": 275,
+      "failed": false
+    },
+    "dfaust_50002_knees": {
+      "norm_return": 0.9561570882797241,
+      "steps": 415,
+      "failed": false
+    },
+    "eyes_japan_throw_toss_04_both_hands_over_light_kawaguchi": {
+      "norm_return": 0.963190495967865,
+      "steps": 794,
+      "failed": false
+    },
+    "eyes_japan_turn_01_call_kawaguchi": {
+      "norm_return": 0.9443867802619934,
+      "steps": 1088,
+      "failed": false
+    },
+    "eyes_japan_gesture_etc_16_dryer_kawaguchi": {
+      "norm_return": 0.9354384541511536,
+      "steps": 412,
+      "failed": false
+    },
+    "eyes_japan_walk_06_catwalk_frederic": {
+      "norm_return": 0.947945773601532,
+      "steps": 701,
+      "failed": false
+    },
+    "hdm05_HDM_dg_06_03_01_120": {
+      "norm_return": 0.9603362083435059,
+      "steps": 137,
+      "failed": false
+    },
+    "human4d_Subject3_Medhi_INF_JumpingJack_S3_01": {
+      "norm_return": 0.9367362856864929,
+      "steps": 628,
+      "failed": false
+    },
+    "human4d_Subject3_Medhi_INF_Running_S3_01": {
+      "norm_return": 0.9022408723831177,
+      "steps": 648,
+      "failed": false
+    },
+    "human4d_Subject3_Medhi_INF_Basketball_S3_01": {
+      "norm_return": 0.8999207615852356,
+      "steps": 866,
+      "failed": false
+    },
+    "human4d_Subject1_Karim_INF_TalkingWalking_S1_01": {
+      "norm_return": 0.9387332797050476,
+      "steps": 957,
+      "failed": false
+    },
+    "humaneva_S2_Jog_3": {
+      "norm_return": 0.9398237466812134,
+      "steps": 655,
+      "failed": false
+    },
+    "humaneva_S3_Static": {
+      "norm_return": 0.9751653671264648,
+      "steps": 149,
+      "failed": false
+    },
+    "humaneva_S2_Walking_3": {
+      "norm_return": 0.9616034626960754,
+      "steps": 634,
+      "failed": false
+    },
+    "mpi_mosh_50025_simple_crouch": {
+      "norm_return": 0.9706341624259949,
+      "steps": 426,
+      "failed": false
+    },
+    "mpi_mosh_50025_one_leg_loose": {
+      "norm_return": 0.8911243677139282,
+      "steps": 445,
+      "failed": false
+    },
+    "sfu_0005_SideSkip001": {
+      "norm_return": 0.8864811658859253,
+      "steps": 450,
+      "failed": false
+    },
+    "sfu_0005_Jogging001": {
+      "norm_return": 0.9395301938056946,
+      "steps": 573,
+      "failed": false
+    },
+    "sfu_0018_TipToe001": {
+      "norm_return": 0.9149642586708069,
+      "steps": 334,
+      "failed": false
+    },
+    "sfu_0018_Catwalk001": {
+      "norm_return": 0.9119759202003479,
+      "steps": 587,
+      "failed": false
+    },
+    "transitions_JOOF_push": {
+      "norm_return": 0.9452857375144958,
+      "steps": 444,
+      "failed": false
+    },
+    "transitions_punchkarate_push": {
+      "norm_return": 0.9167558550834656,
+      "steps": 426,
+      "failed": false
+    },
+    "transitions_JOOF_turntwist180": {
+      "norm_return": 0.9417292475700378,
+      "steps": 317,
+      "failed": false
+    },
+    "transitions_JOOF_walk": {
+      "norm_return": 0.9391749501228333,
+      "steps": 398,
+      "failed": false
+    },
+    "accad_C2___Run_to_stand": {
+      "norm_return": 0.8788982033729553,
+      "steps": 265,
+      "failed": false
+    },
+    "accad_E1___Turn_around_right": {
+      "norm_return": 0.9612112045288086,
+      "steps": 717,
+      "failed": false
+    },
+    "accad_E3___advance": {
+      "norm_return": 0.9261581301689148,
+      "steps": 317,
+      "failed": false
+    },
+    "accad_B18___walk_to_leap_to_walk": {
+      "norm_return": 0.8586602807044983,
+      "steps": 284,
+      "failed": false
+    },
+    "bmlhandball_S07_Expert_Trial_upper_left_082": {
+      "norm_return": 0.9247825145721436,
+      "steps": 440,
+      "failed": false
+    },
+    "bmlmovi_Subject_38_F_16": {
+      "norm_return": 0.9145666360855103,
+      "steps": 400,
+      "failed": false
+    },
+    "cmu_49_15": {
+      "norm_return": 0.9825974106788635,
+      "steps": 394,
+      "failed": false
+    },
+    "cnrs_288__01_L_1_stageii": {
+      "norm_return": 0.8866003751754761,
+      "steps": 374,
+      "failed": false
+    },
+    "dfaust_50021_punching": {
+      "norm_return": 0.9670486450195312,
+      "steps": 210,
+      "failed": false
+    },
+    "dfaust_50025_running_on_spot": {
+      "norm_return": 0.8757271766662598,
+      "steps": 275,
+      "failed": false
+    },
+    "dfaust_50020_knees": {
+      "norm_return": 0.882768988609314,
+      "steps": 428,
+      "failed": false
+    },
+    "eyes_japan_throw_toss_05_both_hands_over_heavy_kawaguchi": {
+      "norm_return": 0.9501422643661499,
+      "steps": 981,
+      "failed": false
+    },
+    "eyes_japan_gesture_etc_34_peace_kawaguchi": {
+      "norm_return": 0.9729646444320679,
+      "steps": 600,
+      "failed": false
+    },
+    "eyes_japan_walk_04_fast_frederic": {
+      "norm_return": 0.9203038215637207,
+      "steps": 726,
+      "failed": false
+    },
+    "hdm05_HDM_dg_06_03_02_120": {
+      "norm_return": 0.8927465081214905,
+      "steps": 117,
+      "failed": false
+    },
+    "human4d_Subject4_Carine_INF_JumpingJack_S4_01": {
+      "norm_return": 0.8807727694511414,
+      "steps": 767,
+      "failed": false
+    },
+    "human4d_Subject1_Karim_INF_Running_S1_01": {
+      "norm_return": 0.8838568329811096,
+      "steps": 753,
+      "failed": false
+    },
+    "human4d_Subject1_Karim_INF_Talking_S1_01": {
+      "norm_return": 0.9644838571548462,
+      "steps": 1082,
+      "failed": false
+    },
+    "humaneva_S2_Jog_1": {
+      "norm_return": 0.9400623440742493,
+      "steps": 716,
+      "failed": false
+    },
+    "humaneva_S1_Static": {
+      "norm_return": 0.9794913530349731,
+      "steps": 149,
+      "failed": false
+    },
+    "mpi_mosh_00096_simple_crouch": {
+      "norm_return": 0.9202005863189697,
+      "steps": 609,
+      "failed": false
+    },
+    "mpi_mosh_00059_misc": {
+      "norm_return": 0.9604285359382629,
+      "steps": 455,
+      "failed": false
+    },
+    "sfu_0018_Moonwalk001": {
+      "norm_return": 0.915123701095581,
+      "steps": 773,
+      "failed": false
+    },
+    "transitions_punchkarate_stand": {
+      "norm_return": 0.9490054249763489,
+      "steps": 294,
+      "failed": false
+    },
+    "transitions_turntwist_stand": {
+      "norm_return": 0.942112386226654,
+      "steps": 307,
+      "failed": false
+    },
+    "transitions_walkbackwards_stand": {
+      "norm_return": 0.9602814316749573,
+      "steps": 393,
+      "failed": false
+    },
+    "accad_C8____run_backwards_to_stand": {
+      "norm_return": 0.8738855123519897,
+      "steps": 220,
+      "failed": false
+    },
+    "accad_D11___ready_to_taunt_one_to_ready": {
+      "norm_return": 0.9726470708847046,
+      "steps": 268,
+      "failed": false
+    },
+    "accad_C5___walk_to_run": {
+      "norm_return": 0.8868392109870911,
+      "steps": 270,
+      "failed": false
+    },
+    "bmlhandball_S05_Novice_Trial_upper_right_001": {
+      "norm_return": 0.9673134684562683,
+      "steps": 450,
+      "failed": false
+    },
+    "bmlmovi_Subject_53_F_2": {
+      "norm_return": 0.925715982913971,
+      "steps": 403,
+      "failed": false
+    },
+    "cmu_136_33": {
+      "norm_return": 0.9576358795166016,
+      "steps": 409,
+      "failed": false
+    },
+    "cnrs_288__12_L_1_stageii": {
+      "norm_return": 0.9023975729942322,
+      "steps": 368,
+      "failed": false
+    },
+    "dfaust_50026_punching": {
+      "norm_return": 0.94673752784729,
+      "steps": 176,
+      "failed": false
+    },
+    "dfaust_50020_running_on_spot": {
+      "norm_return": 0.8616006970405579,
+      "steps": 204,
+      "failed": false
+    },
+    "dfaust_50022_hips": {
+      "norm_return": 0.9771341681480408,
+      "steps": 454,
+      "failed": false
+    },
+    "eyes_japan_gesture_etc_31_ok_kawaguchi": {
+      "norm_return": 0.9818527102470398,
+      "steps": 695,
+      "failed": false
+    },
+    "hdm05_HDM_dg_07_01_02_120": {
+      "norm_return": 0.631069540977478,
+      "steps": 114,
+      "failed": false
+    },
+    "human4d_Subject2_Aude_INF_JumpingJack_S2_01": {
+      "norm_return": 0.8565190434455872,
+      "steps": 783,
+      "failed": false
+    },
+    "human4d_Subject2_Aude_INF_Running_S2_01": {
+      "norm_return": 0.8273979425430298,
+      "steps": 806,
+      "failed": false
+    },
+    "humaneva_S3_Jog_3": {
+      "norm_return": 0.934581458568573,
+      "steps": 822,
+      "failed": false
+    },
+    "humaneva_S2_Static": {
+      "norm_return": 0.970636248588562,
+      "steps": 149,
+      "failed": false
+    },
+    "mpi_mosh_50002_simple_crouch2": {
+      "norm_return": 0.9736623764038086,
+      "steps": 705,
+      "failed": false
+    },
+    "mpi_mosh_50002_hips": {
+      "norm_return": 0.9779691100120544,
+      "steps": 568,
+      "failed": false
+    },
+    "sfu_0018_Walking001": {
+      "norm_return": 0.9430161118507385,
+      "steps": 886,
+      "failed": false
+    },
+    "transitions_walkbackwards_push": {
+      "norm_return": 0.9526937007904053,
+      "steps": 377,
+      "failed": false
+    },
+    "accad_C7____run_backwards": {
+      "norm_return": 0.8082902431488037,
+      "steps": 154,
+      "failed": false
+    },
+    "accad_D12___ready_to_taunt_two_to_ready": {
+      "norm_return": 0.9595762491226196,
+      "steps": 268,
+      "failed": false
+    },
+    "accad_B16___walk_turn_change_direction": {
+      "norm_return": 0.9394034147262573,
+      "steps": 550,
+      "failed": false
+    },
+    "bmlmovi_Subject_84_F_16": {
+      "norm_return": 0.9471687078475952,
+      "steps": 405,
+      "failed": false
+    },
+    "cmu_76_01": {
+      "norm_return": 0.9577429294586182,
+      "steps": 387,
+      "failed": false
+    },
+    "cnrs_288_01_R_1_stageii": {
+      "norm_return": 0.8716309070587158,
+      "steps": 353,
+      "failed": false
+    },
+    "dfaust_50022_punching": {
+      "norm_return": 0.9581344723701477,
+      "steps": 168,
+      "failed": false
+    },
+    "dfaust_50009_hips": {
+      "norm_return": 0.9709441065788269,
+      "steps": 455,
+      "failed": false
+    },
+    "eyes_japan_greeting_01_hello_kawaguchi": {
+      "norm_return": 0.9448840022087097,
+      "steps": 735,
+      "failed": false
+    },
+    "hdm05_HDM_dg_07_01_06_120": {
+      "norm_return": 0.6826694011688232,
+      "steps": 104,
+      "failed": false
+    },
+    "human4d_Subject4_Carine_RGB_Running_S4_01": {
+      "norm_return": 0.8572500348091125,
+      "steps": 835,
+      "failed": false
+    },
+    "humaneva_S3_Gestures_3": {
+      "norm_return": 0.9793049097061157,
+      "steps": 745,
+      "failed": false
+    },
+    "accad_C26____run_to_crouch": {
+      "norm_return": 0.8052991032600403,
+      "steps": 149,
+      "failed": false
+    },
+    "accad_D16___switch_stance_and_bounce": {
+      "norm_return": 0.9191120266914368,
+      "steps": 244,
+      "failed": false
+    },
+    "accad_B5___walk_backwards": {
+      "norm_return": 0.921292781829834,
+      "steps": 576,
+      "failed": false
+    },
+    "bmlhandball_S07_Expert_Trial_upper_right_193": {
+      "norm_return": 0.9030823707580566,
+      "steps": 480,
+      "failed": false
+    },
+    "bmlmovi_Subject_81_F_6": {
+      "norm_return": 0.9807141423225403,
+      "steps": 393,
+      "failed": false
+    },
+    "cmu_84_01": {
+      "norm_return": 0.9639855027198792,
+      "steps": 385,
+      "failed": false
+    },
+    "cnrs_288__12_L_2_stageii": {
+      "norm_return": 0.8751787543296814,
+      "steps": 341,
+      "failed": false
+    },
+    "dfaust_50020_punching": {
+      "norm_return": 0.953077495098114,
+      "steps": 168,
+      "failed": false
+    },
+    "dfaust_50021_hips": {
+      "norm_return": 0.9649835824966431,
+      "steps": 483,
+      "failed": false
+    },
+    "eyes_japan_gesture_etc_04_set_4_kawaguchi": {
+      "norm_return": 0.9838089942932129,
+      "steps": 740,
+      "failed": false
+    },
+    "hdm05_HDM_dg_06_03_03_120": {
+      "norm_return": 0.8315047025680542,
+      "steps": 83,
+      "failed": false
+    },
+    "mpi_mosh_50007_misc_1": {
+      "norm_return": 0.9264838695526123,
+      "steps": 840,
+      "failed": false
+    },
+    "accad_C13____run_turn_left__135_": {
+      "norm_return": 0.7708263993263245,
+      "steps": 142,
+      "failed": false
+    },
+    "accad_C25____side_step_right": {
+      "norm_return": 0.8543946743011475,
+      "steps": 214,
+      "failed": false
+    },
+    "accad_C4___Run_to_walk1": {
+      "norm_return": 0.8541538715362549,
+      "steps": 176,
+      "failed": false
+    },
+    "bmlhandball_S08_Novice_Trial_upper_left_100": {
+      "norm_return": 0.9424078464508057,
+      "steps": 488,
+      "failed": false
+    },
+    "bmlmovi_Subject_90_F_6": {
+      "norm_return": 0.9470617175102234,
+      "steps": 409,
+      "failed": false
+    },
+    "cmu_111_01": {
+      "norm_return": 0.9514892101287842,
+      "steps": 415,
+      "failed": false
+    },
+    "cnrs_288__08_R_1_stageii": {
+      "norm_return": 0.8800915479660034,
+      "steps": 340,
+      "failed": false
+    },
+    "dfaust_50025_punching": {
+      "norm_return": 0.9562984704971313,
+      "steps": 165,
+      "failed": false
+    },
+    "dfaust_50007_one_leg_loose": {
+      "norm_return": 0.9253472089767456,
+      "steps": 313,
+      "failed": false
+    }
+  },
+  "groups": {
+    "original40": {
+      "clips": 40,
+      "hard_failed": 0,
+      "mean_norm_return": 0.8477090716361999,
+      "frame_weighted_norm_return": 0.8486467461910131,
+      "min_norm_return": 0.7863600850105286,
+      "clips_below_0_82": 8,
+      "completed_reference_frames": 445661,
+      "total_reference_frames": 445661
+    },
+    "added113": {
+      "clips": 113,
+      "hard_failed": 0,
+      "mean_norm_return": 0.9203586594193383,
+      "frame_weighted_norm_return": 0.9280376601508944,
+      "min_norm_return": 0.631069540977478,
+      "clips_below_0_82": 5,
+      "completed_reference_frames": 51507,
+      "total_reference_frames": 51507
+    },
+    "all153": {
+      "clips": 153,
+      "hard_failed": 0,
+      "mean_norm_return": 0.9013653031361648,
+      "frame_weighted_norm_return": 0.856871707985279,
+      "min_norm_return": 0.631069540977478,
+      "clips_below_0_82": 13,
+      "completed_reference_frames": 497168,
+      "total_reference_frames": 497168
+    }
+  },
+  "protocol": {
+    "checkpoint": "runs/lens110_lafan1_yahmp113_full21_30000_20261029/ckpt_030000.pt",
+    "checkpoint_sha256": "d7617686d2b564c5b5c6190082309d313ec2a1187c7bd0e9741191a7491cdefe",
+    "iteration": 30000,
+    "backend": "mjwarp",
+    "start": "first frame of each reference clip",
+    "repeats": 1,
+    "eval_mode": true,
+    "boundary": "Same-backend deterministic training-motion evaluation; no perturbation, cross-engine, or hardware validation."
+  },
+  "evaluated_at": "2026-10-30T09:55:06.426193+08:00",
+  "elapsed_seconds": 237.40166564006358
+}

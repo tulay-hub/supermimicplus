@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-10-30T09:53:48.588690+08:00",
+  "completed": true,
+  "completed_at_checkpoint_local": "2026-10-29 19:06:59",
+  "iteration": 30000,
+  "source_iteration": 12000,
+  "continued_iterations": 18000,
+  "stage_training_seconds": 10023.358616113663,
+  "cumulative_training_seconds": 16647.324776649475,
+  "sim_steps": 307982336,
+  "motions": 153,
+  "num_envs": 4096,
+  "full_checkpoint": "last.pt",
+  "inference_checkpoint": "ckpt_030000.pt",
+  "source_checkpoint_unchanged": true,
+  "all_network_parameters_finite": true,
+  "all_logged_metrics_finite": true,
+  "first500_iteration_mean": {
+    "wm_loss": 0.050992078,
+    "wm_err8": 0.079260776,
+    "sim_rew": 0.8361831,
+    "ep_ret_norm": 0.826839,
+    "ep_len": 323.891262,
+    "term_frac": 0.020755754
+  },
+  "last500_iteration_mean": {
+    "wm_loss": 0.032114842000000005,
+    "wm_err8": 0.049396656,
+    "sim_rew": 0.8635628,
+    "ep_ret_norm": 0.29699962,
+    "ep_len": 229.1198,
+    "term_frac": 0.0005891118
+  },
+  "physics_capacity": {
+    "contact_capacity_total": 524288,
+    "constraint_capacity_per_world": 512,
+    "ccd_capacity_total": 262144,
+    "peak_contacts_total": 13268,
+    "peak_constraints_per_world": 116,
+    "peak_broadphase_candidates_total": 11988,
+    "checked_control_steps": 45064,
+    "overflow_flags": 0
+  },
+  "evaluation_result": "evaluation_30000/ckpt_030000_full153_eval.json",
+  "boundary": "Training completion and rolling statistics; full-clip evaluation reported separately.",
+  "full_clip_evaluation": {
+    "evaluated_at": "2026-10-30T09:55:06.426193+08:00",
+    "groups": {
+      "original40": {
+        "clips": 40,
+        "hard_failed": 0,
+        "mean_norm_return": 0.8477090716361999,
+        "frame_weighted_norm_return": 0.8486467461910131,
+        "min_norm_return": 0.7863600850105286,
+        "clips_below_0_82": 8,
+        "completed_reference_frames": 445661,
+        "total_reference_frames": 445661
+      },
+      "added113": {
+        "clips": 113,
+        "hard_failed": 0,
+        "mean_norm_return": 0.9203586594193383,
+        "frame_weighted_norm_return": 0.9280376601508944,
+        "min_norm_return": 0.631069540977478,
+        "clips_below_0_82": 5,
+        "completed_reference_frames": 51507,
+        "total_reference_frames": 51507
+      },
+      "all153": {
+        "clips": 153,
+        "hard_failed": 0,
+        "mean_norm_return": 0.9013653031361648,
+        "frame_weighted_norm_return": 0.856871707985279,
+        "min_norm_return": 0.631069540977478,
+        "clips_below_0_82": 13,
+        "completed_reference_frames": 497168,
+        "total_reference_frames": 497168
+      }
+    },
+    "baseline_original40_at12000": {
+      "norm_return": 0.8339589238166809,
+      "norm_return_framew": 0.8350699543952942,
+      "n_failed": 0,
+      "failed": []
+    },
+    "result": "evaluation_30000/ckpt_030000_full153_eval.json",
+    "summary": "evaluation_30000/README_评测结果.md"
+  }
+}

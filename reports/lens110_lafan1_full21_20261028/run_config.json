@@ -1,0 +1,709 @@
+{
+  "run": {
+    "algo": "supermimic",
+    "task": "Lens110Lafan1SuperMimic",
+    "sim_backend": "mjwarp",
+    "device": "cuda:0",
+    "collector_tensor_device": null,
+    "seed": {
+      "configured_seed": 0,
+      "configured_seed_source": "algo.seed",
+      "effective_seed": 0
+    }
+  },
+  "config": {
+    "algo": {
+      "algo": "supermimic",
+      "algo_log_name": "supermimic",
+      "load_run": "-1",
+      "checkpoint": -1,
+      "resume": false,
+      "seed": 0,
+      "num_envs": 4096,
+      "iterations": 12000,
+      "buffer_steps": 1000,
+      "utd": 0.4,
+      "horizon": 32,
+      "goal_frames": 10,
+      "hist": 10,
+      "z_dim": 32,
+      "wm_hidden": [
+        2048,
+        2048,
+        2048
+      ],
+      "policy_hidden": [
+        2048,
+        1024,
+        512,
+        256
+      ],
+      "critic_hidden": [
+        256,
+        128
+      ],
+      "wm_window": 8,
+      "wm_batches": 10,
+      "wm_batch": 2048,
+      "pi_batch": 4096,
+      "lr": 0.0002,
+      "gamma": 0.99,
+      "lam": 0.95,
+      "action_noise": 0.1,
+      "critic_epochs": 5,
+      "critic_minibatches": 4,
+      "no_critic": false,
+      "warmup_steps": 64,
+      "wm_only_iters": 500,
+      "lr_decay_iters": 250000,
+      "ckpt_every": 250,
+      "log_every": 10,
+      "log_backend": "tensorboard",
+      "amp": "bf16",
+      "compile": true,
+      "test_hidden_dims": null
+    },
+    "training": {
+      "task_name": "Lens110Lafan1SuperMimic",
+      "sim_backend": "mjwarp",
+      "collector_tensor_device": "auto",
+      "warp_cuda_graphs": true,
+      "play_only": false,
+      "no_play": true,
+      "sim2sim_strict": true,
+      "play_render_mode": "none",
+      "play_env_num": 40,
+      "log_root": null,
+      "log_dir": "runs/lens110_lafan1_full21_20261028"
+    },
+    "env": {
+      "seed": null,
+      "scene": {
+        "model_file": "src/unisupermimic/assets/robots/lens110/scene_supermimic.xml",
+        "default_keyframe_name": "stand",
+        "entities": {
+          "robot": {
+            "root_body_name": "pelvis",
+            "joint_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "torso_yaw_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint"
+            ],
+            "actuator_names": [
+              "left_hip_pitch_joint",
+              "left_hip_roll_joint",
+              "left_hip_yaw_joint",
+              "left_knee_joint",
+              "left_ankle_pitch_joint",
+              "left_ankle_roll_joint",
+              "right_hip_pitch_joint",
+              "right_hip_roll_joint",
+              "right_hip_yaw_joint",
+              "right_knee_joint",
+              "right_ankle_pitch_joint",
+              "right_ankle_roll_joint",
+              "torso_yaw_joint",
+              "left_shoulder_pitch_joint",
+              "left_shoulder_roll_joint",
+              "left_shoulder_yaw_joint",
+              "left_elbow_joint",
+              "right_shoulder_pitch_joint",
+              "right_shoulder_roll_joint",
+              "right_shoulder_yaw_joint",
+              "right_elbow_joint"
+            ],
+            "body_names": [
+              "pelvis",
+              "left_hip_roll_link",
+              "left_knee_link",
+              "left_ankle_roll_link",
+              "right_hip_roll_link",
+              "right_knee_link",
+              "right_ankle_roll_link",
+              "torso_yaw_link",
+              "left_shoulder_roll_link",
+              "left_elbow_link",
+              "left_hand_tip",
+              "right_shoulder_roll_link",
+              "right_elbow_link",
+              "right_hand_tip"
+            ],
+            "geom_names": [
+              "lens110_collision_000",
+              "lens110_collision_001",
+              "lens110_collision_002",
+              "lens110_collision_003",
+              "lens110_collision_004",
+              "lens110_collision_005",
+              "lens110_collision_006",
+              "lens110_collision_007",
+              "lens110_collision_008",
+              "lens110_collision_009",
+              "lens110_collision_010",
+              "lens110_collision_011",
+              "lens110_collision_012",
+              "lens110_collision_013",
+              "lens110_collision_014",
+              "lens110_collision_015",
+              "lens110_collision_016",
+              "lens110_collision_017",
+              "lens110_collision_018",
+              "lens110_collision_019",
+              "lens110_collision_020",
+              "lens110_collision_021",
+              "lens110_collision_022",
+              "lens110_collision_023",
+              "lens110_collision_024",
+              "lens110_collision_025",
+              "lens110_collision_026",
+              "lens110_collision_027",
+              "lens110_collision_028",
+              "lens110_collision_029",
+              "lens110_collision_030",
+              "lens110_collision_031",
+              "lens110_collision_032",
+              "lens110_collision_033"
+            ]
+          },
+          "ground": {
+            "geom_names": [
+              "floor"
+            ]
+          }
+        }
+      },
+      "sim_dt": 0.002,
+      "ctrl_dt": 0.02,
+      "max_episode_seconds": 10.0,
+      "auto_reset": true,
+      "scale_rewards_by_dt": false,
+      "observations": {
+        "policy": {
+          "enable_corruption": false,
+          "terms": {
+            "obs": {
+              "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_obs",
+              "params": {
+                "command_name": "motion"
+              }
+            }
+          }
+        },
+        "future": {
+          "enable_corruption": false,
+          "terms": {
+            "goal": {
+              "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_goal",
+              "params": {
+                "command_name": "motion",
+                "num_frames": 10
+              }
+            }
+          }
+        }
+      },
+      "actions": {
+        "joint_pos": {
+          "_target_": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.SuperMimicActionCfg",
+          "entity_name": "robot",
+          "command_name": "motion"
+        }
+      },
+      "commands": {
+        "motion": {
+          "_target_": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.SuperMimicCommandCfg",
+          "entity_name": "robot",
+          "mjcf_path": "src/unisupermimic/assets/robots/lens110/supermimic.xml",
+          "eval_mode": false,
+          "gamma": 0.99,
+          "src_fps": 50.0,
+          "reset_noise": true,
+          "max_episode_steps": 500,
+          "goal_frames": 10,
+          "context_dim": 25,
+          "resampling_time_range": [
+            1000000000.0,
+            1000000000.0
+          ],
+          "motion_files": [
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject3.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject3.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject4.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject5.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject4.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject5.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject3.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp3_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject3.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject5.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject4.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject5.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject5.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject4.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject4.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject5.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject3.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject4.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject1.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject2.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject3.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject4.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject5.csv",
+            "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk4_subject1.csv"
+          ],
+          "joint_names": [
+            "left_hip_pitch_joint",
+            "left_hip_roll_joint",
+            "left_hip_yaw_joint",
+            "left_knee_joint",
+            "left_ankle_pitch_joint",
+            "left_ankle_roll_joint",
+            "right_hip_pitch_joint",
+            "right_hip_roll_joint",
+            "right_hip_yaw_joint",
+            "right_knee_joint",
+            "right_ankle_pitch_joint",
+            "right_ankle_roll_joint",
+            "torso_yaw_joint",
+            "left_shoulder_pitch_joint",
+            "left_shoulder_roll_joint",
+            "left_shoulder_yaw_joint",
+            "left_elbow_joint",
+            "right_shoulder_pitch_joint",
+            "right_shoulder_roll_joint",
+            "right_shoulder_yaw_joint",
+            "right_elbow_joint"
+          ],
+          "tracked_bodies": [
+            "pelvis",
+            "left_hip_roll_link",
+            "left_knee_link",
+            "left_ankle_roll_link",
+            "right_hip_roll_link",
+            "right_knee_link",
+            "right_ankle_roll_link",
+            "torso_yaw_link",
+            "left_shoulder_roll_link",
+            "left_elbow_link",
+            "left_hand_tip",
+            "right_shoulder_roll_link",
+            "right_elbow_link",
+            "right_hand_tip"
+          ],
+          "action_scales": [
+            0.5,
+            0.5,
+            0.225,
+            0.5,
+            0.16363636363636364,
+            0.16363636363636364,
+            0.5,
+            0.5,
+            0.225,
+            0.5,
+            0.16363636363636364,
+            0.16363636363636364,
+            0.09,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45,
+            0.45
+          ],
+          "model_sha256": "76c50daaf9ea6c53a17ea29e622f6ffedff242a87baa13310862849621ddb26c",
+          "motion_sha256": [
+            "7b5f01897d82cd8263d9338a4f5ffa022d08936b8f29e3776872a0deb4ae1d8b",
+            "0741aea4432a36e5378075baf476dcf2487e7911a38def7778e2860c29b17bfa",
+            "142db909ace5b59bcddb8e6e4283c0a35c0375a226f4889d0b8a7f9e8bd48db5",
+            "f54b86810bcd51b558fcb15c28ad51494fb828c9f441a9cf2624fb4a0886057a",
+            "f2cbd6f1bb173e0b02e5be94316b5e1ba7e63e38ee4185ac7fa6da4c33329ba5",
+            "86cfc00cc7e09511af37dbccd149c11c9ba85432cb44983355c349409388c9f8",
+            "f4207fb1ffe8d437544b936ab99ff95acf27d90845bef74f2e683c66f8d7fcbf",
+            "ce3ef52b1e1cf93ce28e4989494c7b588f5888824f60a691a087babadacf6150",
+            "82949172f8a19810f21f881c996ef68d9135de491812ad26216aba3942ad2d9f",
+            "455923f72c47286829b7083cb80ac8f960a4924adb80de18e178e171b9b14fc8",
+            "fd3177dfe24eaf3bd4128a80e3f74a322b016345889f104ce4cbe5cfe0a9e1f9",
+            "fcb6322e0763f06fb1604b7ee9bd51d0772382b58f94b84e04514f7f12d6b183",
+            "218c21acdbcc6bed131ff83fa7db860462ac62dc7441558fc7a97e9c1cc3a048",
+            "92870fb16fbb5b3df71d686f8a1b3995cf4f6b6ab6189ae35256b5e032964d48",
+            "fd80c6eb8b7bdbe00a43bd6313f46963369f266c4b640b60f08455f3bf85e107",
+            "3d55a4f2a24fc26260c3013e17a0e2b1ea355ec00f0d28186dd30f9f5bc766b4",
+            "384aeb7d7f47dcbe792b69f18c180b0639770e4c078c1ec664005d9a9feb0e9c",
+            "e82edc9eb7227e9acbc983ebe2da1dab51ad29f45c4919229e88a50233d21bfb",
+            "3b9e2249d2da658a3be3041393c441a9cd0f002c5f6f08a63cdb3f6f63005e74",
+            "eb1751703524ed68706211db59ea8fdae541286d81428e9371b35564e23f6b55",
+            "8120534185e69a7555a20fa3224b4e93ef89601de9c84d9bc58e08698ca998e3",
+            "b6da4ed95fe95e60de83b6fcb7946cdb5c2a02b891318233f988a545246104dd",
+            "b5e98409909c8bb235523b2d32e02f5484a3fde0be405d617f7bb5545586b3ea",
+            "5eb8d5f21f8909285aa4bc9a8f16a38e2a9456e06c02d59fcefad5cbc99f6798",
+            "22bdc84a496fb143cc65866c5f0701f10eec0812397fcfb2f199792ec39ef4f2",
+            "6513b10567c92d49adcc36b3f7ad4bc891bddae1ba8139357eab0dc6c91dbc64",
+            "a3de7b45c511c43e9ae0bb680babb22b4ac55ac5423188b8061ac5584b7a8a54",
+            "4f4618b9e4298313f03fbc4fec1ad377fb1c50894237fe6fc2c360f10a8d777f",
+            "18c3a677280267a8f9737cd505863399681f8811f52e2f01d34419e80ac71bae",
+            "2c40242a9fa0a1795342b7ca9e3261d2b9936204fde6e7ec514ec59b70470e1a",
+            "5f54a9a4e4c9bea5674566972a60c00039855ae8bb462021bf0b6d8db9e1802c",
+            "fb6503432d1e1a514007cd56255e9f72d4cfcfa641e611113e0a98b2da51e7fd",
+            "061ee581c80d9058675c9212a0d797dabe0eba4bab9f1db4a2ad0b3cc48d210c",
+            "a0a23241632bddc93032a1448a30cc19d0274c975da6b98ff5fb7b3ef57d19fe",
+            "aefce8a0c94d31b8065d1c89f1d87d94eb3b9a3b7f0e4d46ee383cd6e350fd67",
+            "f89b077eddc113dfb2df5f5ff5e2d6e1a8a423a0bfd4b01b09d7a399496e74c9",
+            "8bb9079613f934c81a148968e0835667d752f2fed7f84557a2437e1c7120869c",
+            "174d9d69b4fd6cc97f3a6148f687b2f711eff2a997024e5000f9a0889c1567a0",
+            "91be2746304469df68123f4992c725fa574e947ddab571bb3f44a69f2502b5f0",
+            "81e417d380a89f41465cf35ff61eebc9603abd57f769eafe86c350615ecc5689"
+          ],
+          "reward_cfg": {
+            "_target_": "unisupermimic.tasks.motion_tracking.g1.supermimic.mdp.RewardCfg",
+            "body_pos_std": 0.259344096364356,
+            "root_pos_std": 0.259344096364356,
+            "body_linvel_std": 0.86448032121452,
+            "term_height": 0.21612008030363
+          }
+        }
+      },
+      "events": {
+        "startup_context": {
+          "_target_": "unilab.managers.EventTermCfg",
+          "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.SuperMimicContextEvent",
+          "mode": "startup",
+          "params": {
+            "command_name": "motion",
+            "asset_cfg": {
+              "_target_": "unilab.managers.SceneEntityCfg",
+              "name": "robot"
+            },
+            "ground_asset_cfg": {
+              "_target_": "unilab.managers.SceneEntityCfg",
+              "name": "ground",
+              "geom_names": [
+                "floor"
+              ]
+            },
+            "torso_body_name": "torso_yaw_link"
+          }
+        },
+        "reset_context": {
+          "_target_": "unilab.managers.EventTermCfg",
+          "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.SuperMimicContextEvent",
+          "mode": "reset",
+          "params": {
+            "command_name": "motion",
+            "asset_cfg": {
+              "_target_": "unilab.managers.SceneEntityCfg",
+              "name": "robot"
+            },
+            "ground_asset_cfg": {
+              "_target_": "unilab.managers.SceneEntityCfg",
+              "name": "ground",
+              "geom_names": [
+                "floor"
+              ]
+            },
+            "torso_body_name": "torso_yaw_link"
+          }
+        },
+        "joint_offsets": {
+          "_target_": "unilab.managers.EventTermCfg",
+          "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.SuperMimicJointOffsetEvent",
+          "mode": "reset",
+          "params": {
+            "command_name": "motion"
+          }
+        }
+      },
+      "terminations": {
+        "hard": {
+          "_target_": "unilab.managers.TerminationTermCfg",
+          "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_termination",
+          "params": {
+            "command_name": "motion"
+          }
+        },
+        "timeout": {
+          "_target_": "unilab.managers.TerminationTermCfg",
+          "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_timeout",
+          "time_out": true,
+          "params": {
+            "command_name": "motion"
+          }
+        },
+        "clip_end": {
+          "_target_": "unilab.managers.TerminationTermCfg",
+          "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_clip_end",
+          "time_out": true,
+          "params": {
+            "command_name": "motion"
+          }
+        }
+      },
+      "policy_observation_group": "policy",
+      "critic_observation_group": "future",
+      "mjwarp_nconmax": 128,
+      "mjwarp_njmax": 512
+    },
+    "reward": {
+      "tracking": {
+        "_target_": "unilab.managers.RewardTermCfg",
+        "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_reward",
+        "weight": 1.0,
+        "params": {
+          "command_name": "motion"
+        }
+      }
+    }
+  },
+  "contract_snapshot": {
+    "env.observations": {
+      "policy": {
+        "enable_corruption": false,
+        "terms": {
+          "obs": {
+            "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_obs",
+            "params": {
+              "command_name": "motion"
+            }
+          }
+        }
+      },
+      "future": {
+        "enable_corruption": false,
+        "terms": {
+          "goal": {
+            "func": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.supermimic_goal",
+            "params": {
+              "command_name": "motion",
+              "num_frames": 10
+            }
+          }
+        }
+      }
+    },
+    "env.actions": {
+      "joint_pos": {
+        "_target_": "unisupermimic.tasks.motion_tracking.g1.supermimic.manager_terms.SuperMimicActionCfg",
+        "entity_name": "robot",
+        "command_name": "motion"
+      }
+    },
+    "env.policy_observation_group": "policy",
+    "env.critic_observation_group": "future",
+    "env.ctrl_dt": 0.02,
+    "algo.goal_frames": 10,
+    "algo.hist": 10,
+    "algo.z_dim": 32,
+    "algo.wm_hidden": [
+      2048,
+      2048,
+      2048
+    ],
+    "algo.policy_hidden": [
+      2048,
+      1024,
+      512,
+      256
+    ],
+    "algo.critic_hidden": [
+      256,
+      128
+    ],
+    "algo.wm_window": 8,
+    "algo.horizon": 32,
+    "algo.amp": "bf16",
+    "env.commands.motion.goal_frames": 10,
+    "env.commands.motion.context_dim": 25,
+    "env.commands.motion.motion_files": [
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject3.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject3.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject4.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject5.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject4.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject5.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject3.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp3_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject3.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject5.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject4.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject5.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject5.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject4.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject4.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject5.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject3.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject4.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject1.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject2.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject3.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject4.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject5.csv",
+      "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk4_subject1.csv"
+    ],
+    "env.commands.motion.mjcf_path": "src/unisupermimic/assets/robots/lens110/supermimic.xml",
+    "env.commands.motion.joint_names": [
+      "left_hip_pitch_joint",
+      "left_hip_roll_joint",
+      "left_hip_yaw_joint",
+      "left_knee_joint",
+      "left_ankle_pitch_joint",
+      "left_ankle_roll_joint",
+      "right_hip_pitch_joint",
+      "right_hip_roll_joint",
+      "right_hip_yaw_joint",
+      "right_knee_joint",
+      "right_ankle_pitch_joint",
+      "right_ankle_roll_joint",
+      "torso_yaw_joint",
+      "left_shoulder_pitch_joint",
+      "left_shoulder_roll_joint",
+      "left_shoulder_yaw_joint",
+      "left_elbow_joint",
+      "right_shoulder_pitch_joint",
+      "right_shoulder_roll_joint",
+      "right_shoulder_yaw_joint",
+      "right_elbow_joint"
+    ],
+    "env.commands.motion.tracked_bodies": [
+      "pelvis",
+      "left_hip_roll_link",
+      "left_knee_link",
+      "left_ankle_roll_link",
+      "right_hip_roll_link",
+      "right_knee_link",
+      "right_ankle_roll_link",
+      "torso_yaw_link",
+      "left_shoulder_roll_link",
+      "left_elbow_link",
+      "left_hand_tip",
+      "right_shoulder_roll_link",
+      "right_elbow_link",
+      "right_hand_tip"
+    ],
+    "env.commands.motion.action_scales": [
+      0.5,
+      0.5,
+      0.225,
+      0.5,
+      0.16363636363636364,
+      0.16363636363636364,
+      0.5,
+      0.5,
+      0.225,
+      0.5,
+      0.16363636363636364,
+      0.16363636363636364,
+      0.09,
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ],
+    "env.commands.motion.reward_cfg": {
+      "_target_": "unisupermimic.tasks.motion_tracking.g1.supermimic.mdp.RewardCfg",
+      "body_pos_std": 0.259344096364356,
+      "root_pos_std": 0.259344096364356,
+      "body_linvel_std": 0.86448032121452,
+      "term_height": 0.21612008030363
+    },
+    "env.commands.motion.model_sha256": "76c50daaf9ea6c53a17ea29e622f6ffedff242a87baa13310862849621ddb26c",
+    "env.commands.motion.motion_sha256": [
+      "7b5f01897d82cd8263d9338a4f5ffa022d08936b8f29e3776872a0deb4ae1d8b",
+      "0741aea4432a36e5378075baf476dcf2487e7911a38def7778e2860c29b17bfa",
+      "142db909ace5b59bcddb8e6e4283c0a35c0375a226f4889d0b8a7f9e8bd48db5",
+      "f54b86810bcd51b558fcb15c28ad51494fb828c9f441a9cf2624fb4a0886057a",
+      "f2cbd6f1bb173e0b02e5be94316b5e1ba7e63e38ee4185ac7fa6da4c33329ba5",
+      "86cfc00cc7e09511af37dbccd149c11c9ba85432cb44983355c349409388c9f8",
+      "f4207fb1ffe8d437544b936ab99ff95acf27d90845bef74f2e683c66f8d7fcbf",
+      "ce3ef52b1e1cf93ce28e4989494c7b588f5888824f60a691a087babadacf6150",
+      "82949172f8a19810f21f881c996ef68d9135de491812ad26216aba3942ad2d9f",
+      "455923f72c47286829b7083cb80ac8f960a4924adb80de18e178e171b9b14fc8",
+      "fd3177dfe24eaf3bd4128a80e3f74a322b016345889f104ce4cbe5cfe0a9e1f9",
+      "fcb6322e0763f06fb1604b7ee9bd51d0772382b58f94b84e04514f7f12d6b183",
+      "218c21acdbcc6bed131ff83fa7db860462ac62dc7441558fc7a97e9c1cc3a048",
+      "92870fb16fbb5b3df71d686f8a1b3995cf4f6b6ab6189ae35256b5e032964d48",
+      "fd80c6eb8b7bdbe00a43bd6313f46963369f266c4b640b60f08455f3bf85e107",
+      "3d55a4f2a24fc26260c3013e17a0e2b1ea355ec00f0d28186dd30f9f5bc766b4",
+      "384aeb7d7f47dcbe792b69f18c180b0639770e4c078c1ec664005d9a9feb0e9c",
+      "e82edc9eb7227e9acbc983ebe2da1dab51ad29f45c4919229e88a50233d21bfb",
+      "3b9e2249d2da658a3be3041393c441a9cd0f002c5f6f08a63cdb3f6f63005e74",
+      "eb1751703524ed68706211db59ea8fdae541286d81428e9371b35564e23f6b55",
+      "8120534185e69a7555a20fa3224b4e93ef89601de9c84d9bc58e08698ca998e3",
+      "b6da4ed95fe95e60de83b6fcb7946cdb5c2a02b891318233f988a545246104dd",
+      "b5e98409909c8bb235523b2d32e02f5484a3fde0be405d617f7bb5545586b3ea",
+      "5eb8d5f21f8909285aa4bc9a8f16a38e2a9456e06c02d59fcefad5cbc99f6798",
+      "22bdc84a496fb143cc65866c5f0701f10eec0812397fcfb2f199792ec39ef4f2",
+      "6513b10567c92d49adcc36b3f7ad4bc891bddae1ba8139357eab0dc6c91dbc64",
+      "a3de7b45c511c43e9ae0bb680babb22b4ac55ac5423188b8061ac5584b7a8a54",
+      "4f4618b9e4298313f03fbc4fec1ad377fb1c50894237fe6fc2c360f10a8d777f",
+      "18c3a677280267a8f9737cd505863399681f8811f52e2f01d34419e80ac71bae",
+      "2c40242a9fa0a1795342b7ca9e3261d2b9936204fde6e7ec514ec59b70470e1a",
+      "5f54a9a4e4c9bea5674566972a60c00039855ae8bb462021bf0b6d8db9e1802c",
+      "fb6503432d1e1a514007cd56255e9f72d4cfcfa641e611113e0a98b2da51e7fd",
+      "061ee581c80d9058675c9212a0d797dabe0eba4bab9f1db4a2ad0b3cc48d210c",
+      "a0a23241632bddc93032a1448a30cc19d0274c975da6b98ff5fb7b3ef57d19fe",
+      "aefce8a0c94d31b8065d1c89f1d87d94eb3b9a3b7f0e4d46ee383cd6e350fd67",
+      "f89b077eddc113dfb2df5f5ff5e2d6e1a8a423a0bfd4b01b09d7a399496e74c9",
+      "8bb9079613f934c81a148968e0835667d752f2fed7f84557a2437e1c7120869c",
+      "174d9d69b4fd6cc97f3a6148f687b2f711eff2a997024e5000f9a0889c1567a0",
+      "91be2746304469df68123f4992c725fa574e947ddab571bb3f44a69f2502b5f0",
+      "81e417d380a89f41465cf35ff61eebc9603abd57f769eafe86c350615ecc5689"
+    ],
+    "training.warp_cuda_graphs": true
+  }
+}

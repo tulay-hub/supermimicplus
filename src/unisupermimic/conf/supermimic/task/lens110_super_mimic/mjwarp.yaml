@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+- /task/lens110_super_mimic/base
+- _self_
+training:
+  task_name: Lens110SuperMimic
+  sim_backend: mjwarp

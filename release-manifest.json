@@ -1,0 +1,23 @@
+{
+  "version": "v0.1.0-30000",
+  "assets": [
+    {
+      "name": "supermimicplus-data-153.tar.gz",
+      "kind": "data",
+      "bytes": 124800076,
+      "sha256": "807265ba24e1b6179be403e151e8d667a98399dd24deda90180f883ae5f55b30"
+    },
+    {
+      "name": "supermimicplus-models-12000-30000.tar.gz",
+      "kind": "models",
+      "bytes": 509752916,
+      "sha256": "43f0cd623dac0782df8c4a320ecad39cad7e1434584503aae661c06efd9a72b0"
+    },
+    {
+      "name": "supermimicplus-robot-assets.tar.gz",
+      "kind": "assets",
+      "bytes": 25262574,
+      "sha256": "8cd4219d2c885cf43aa9621a0c18441fbda0fe106b05aad54de0fa12952bf754"
+    }
+  ]
+}

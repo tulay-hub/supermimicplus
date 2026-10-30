@@ -1,0 +1,19 @@
+{
+  "project": "supermimicplus",
+  "version": "0.1.0",
+  "trained_iterations": 30000,
+  "training_clips": 153,
+  "heldout_clip": "cmu_91_04",
+  "joint_actions": 21,
+  "upstream_commit": "faf7818e8abac3ec6abb8f00e6e904d3577f800b",
+  "tensor_contract": {
+    "observation": 75,
+    "history": 750,
+    "goal": 570,
+    "action": 21,
+    "state": 55,
+    "context": 25,
+    "world_model_input": 101,
+    "world_model_delta_output": 54
+  }
+}

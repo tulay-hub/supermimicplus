@@ -1,0 +1,956 @@
+{
+  "urdf": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/lens110_21dof.urdf",
+  "urdf_sha256": "f65f2df1b000774ee27de6b0d88d73f741a8601867e9e938960d8a126d80c668",
+  "runtime_xml": "src/unisupermimic/assets/robots/lens110/supermimic.xml",
+  "runtime_xml_sha256": "76c50daaf9ea6c53a17ea29e622f6ffedff242a87baa13310862849621ddb26c",
+  "source_visual_meshes": 22,
+  "runtime_visual_meshes": 0,
+  "source_collision_counts": {
+    "box": 9,
+    "cylinder": 22,
+    "sphere": 3
+  },
+  "runtime_robot_geometry_count": 34,
+  "source_total_mass_kg": 22.924509999999998,
+  "runtime_total_mass_kg": 22.924509999999998,
+  "max_mass_error_kg": 0.0,
+  "max_com_error_m": 0.0,
+  "max_inertia_error_kg_m2": 4.1707828404499714e-08,
+  "max_collision_size_error_m": 0.0,
+  "max_collision_position_error_m": 0.0,
+  "max_collision_orientation_error": 5.694372708504515e-07,
+  "max_joint_origin_position_error_m": 0.0,
+  "max_joint_origin_rotation_error": 4.5933813619392083e-07,
+  "max_joint_axis_error": 0.0,
+  "max_joint_range_error_rad": 0.0,
+  "all_joint_parents_match": true,
+  "explicit_excluded_body_pairs": [],
+  "inertials": [
+    {
+      "link": "pelvis",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.460243208717323e-09
+    },
+    {
+      "link": "left_hip_pitch_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 2.117392168717036e-10
+    },
+    {
+      "link": "left_hip_roll_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 1.392952140961902e-10
+    },
+    {
+      "link": "left_hip_yaw_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.2891168397827103e-09
+    },
+    {
+      "link": "left_knee_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 1.7322804445225881e-09
+    },
+    {
+      "link": "left_ankle_pitch_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.409798590264237e-12
+    },
+    {
+      "link": "left_ankle_roll_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 4.521278037942014e-09
+    },
+    {
+      "link": "right_hip_pitch_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.506547987765967e-11
+    },
+    {
+      "link": "right_hip_roll_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 2.0570916861193875e-10
+    },
+    {
+      "link": "right_hip_yaw_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 2.4077913168048942e-09
+    },
+    {
+      "link": "right_knee_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 2.273817692292901e-09
+    },
+    {
+      "link": "right_ankle_pitch_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.409798590264237e-12
+    },
+    {
+      "link": "right_ankle_roll_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 4.143623925532622e-09
+    },
+    {
+      "link": "torso_yaw_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 4.1707828404499714e-08
+    },
+    {
+      "link": "right_shoulder_pitch_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.1599277410193985e-10
+    },
+    {
+      "link": "left_shoulder_roll_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 4.895253406193151e-10
+    },
+    {
+      "link": "left_shoulder_yaw_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 4.5517522466020227e-10
+    },
+    {
+      "link": "left_elbow_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.07913533646037e-10
+    },
+    {
+      "link": "right_shoulder_roll_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 4.927601850320505e-10
+    },
+    {
+      "link": "right_shoulder_yaw_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 4.5517522466020227e-10
+    },
+    {
+      "link": "right_elbow_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.07913533646037e-10
+    },
+    {
+      "link": "left_shoulder_pitch_link",
+      "mass_error_kg": 0.0,
+      "com_error_m": 0.0,
+      "inertia_error_kg_m2": 3.1599277410193985e-10
+    }
+  ],
+  "collisions": [
+    {
+      "link": "pelvis",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_000",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "pelvis",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_001",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 2.710390103466409e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "pelvis",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_002",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 2.710390103466409e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_hip_pitch_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_003",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_hip_pitch_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_004",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 5.694372708504515e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_hip_roll_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_005",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_hip_yaw_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_006",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_hip_yaw_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_007",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 1.2428468698590014e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_knee_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_008",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_knee_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_009",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_ankle_pitch_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_010",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_ankle_roll_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_011",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_hip_pitch_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_012",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_hip_pitch_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_013",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 5.694372708504515e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_hip_roll_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_014",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_hip_yaw_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_015",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_hip_yaw_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_016",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 1.2428468698590014e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_knee_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_017",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_knee_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_018",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_ankle_pitch_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_019",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_ankle_roll_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_020",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "torso_yaw_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_021",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "torso_yaw_link",
+      "shape": "box",
+      "runtime_geom": "lens110_collision_022",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "torso_yaw_link",
+      "shape": "sphere",
+      "runtime_geom": "lens110_collision_023",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_shoulder_pitch_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_029",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 1.2428468698590014e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_shoulder_roll_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_025",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_shoulder_yaw_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_026",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 1.2428468698590014e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_elbow_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_027",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_elbow_link",
+      "shape": "sphere",
+      "runtime_geom": "lens110_collision_028",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_shoulder_roll_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_030",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_shoulder_yaw_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_031",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 1.2428468698590014e-07,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_elbow_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_032",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "right_elbow_link",
+      "shape": "sphere",
+      "runtime_geom": "lens110_collision_033",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 0.0,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "link": "left_shoulder_pitch_link",
+      "shape": "cylinder",
+      "runtime_geom": "lens110_collision_024",
+      "size_error_m": 0.0,
+      "position_error_m": 0.0,
+      "orientation_error": 1.2428468698590014e-07,
+      "contype": 1,
+      "conaffinity": 1
+    }
+  ],
+  "joints": [
+    {
+      "name": "left_hip_pitch_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 4.5933813619392083e-07,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 80.0,
+      "actuator_force_range": [
+        -80.0,
+        80.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_hip_roll_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 4.5933813619392083e-07,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 80.0,
+      "actuator_force_range": [
+        -80.0,
+        80.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_hip_yaw_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_knee_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 80.0,
+      "actuator_force_range": [
+        -80.0,
+        80.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_ankle_pitch_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_ankle_roll_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_hip_pitch_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 4.5933813619392083e-07,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 80.0,
+      "actuator_force_range": [
+        -80.0,
+        80.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_hip_roll_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 4.5933813619392083e-07,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 80.0,
+      "actuator_force_range": [
+        -80.0,
+        80.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_hip_yaw_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_knee_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 80.0,
+      "actuator_force_range": [
+        -80.0,
+        80.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_ankle_pitch_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_ankle_roll_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "torso_yaw_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.0,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_shoulder_pitch_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_shoulder_roll_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_shoulder_yaw_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "left_elbow_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_shoulder_pitch_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_shoulder_roll_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_shoulder_yaw_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    },
+    {
+      "name": "right_elbow_joint",
+      "parent_matches": true,
+      "origin_position_error_m": 0.0,
+      "origin_rotation_error": 0.0,
+      "axis_error": 0.0,
+      "range_error_rad": 0.0,
+      "urdf_effort": 36.0,
+      "actuator_force_range": [
+        -36.0,
+        36.0
+      ],
+      "armature": 0.01,
+      "joint_damping": 0.0
+    }
+  ],
+  "visual_mesh_files": [
+    {
+      "link": "pelvis",
+      "filename": "meshes/pelvis.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/pelvis.STL",
+      "exists": true
+    },
+    {
+      "link": "left_hip_pitch_link",
+      "filename": "meshes/left_hip_pitch_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_hip_pitch_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_hip_roll_link",
+      "filename": "meshes/left_hip_roll_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_hip_roll_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_hip_yaw_link",
+      "filename": "meshes/left_hip_yaw_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_hip_yaw_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_knee_link",
+      "filename": "meshes/left_knee_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_knee_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_ankle_pitch_link",
+      "filename": "meshes/left_ankle_pitch_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_ankle_pitch_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_ankle_roll_link",
+      "filename": "meshes/left_ankle_roll_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_ankle_roll_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_hip_pitch_link",
+      "filename": "meshes/right_hip_pitch_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_hip_pitch_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_hip_roll_link",
+      "filename": "meshes/right_hip_roll_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_hip_roll_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_hip_yaw_link",
+      "filename": "meshes/right_hip_yaw_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_hip_yaw_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_knee_link",
+      "filename": "meshes/right_knee_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_knee_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_ankle_pitch_link",
+      "filename": "meshes/right_ankle_pitch_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_ankle_pitch_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_ankle_roll_link",
+      "filename": "meshes/right_ankle_roll_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_ankle_roll_link.STL",
+      "exists": true
+    },
+    {
+      "link": "torso_yaw_link",
+      "filename": "meshes/torso_yaw_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/torso_yaw_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_shoulder_pitch_link",
+      "filename": "meshes/right_shoulder_pitch_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_shoulder_pitch_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_shoulder_roll_link",
+      "filename": "meshes/left_shoulder_roll_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_shoulder_roll_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_shoulder_yaw_link",
+      "filename": "meshes/left_shoulder_yaw_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_shoulder_yaw_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_elbow_link",
+      "filename": "meshes/left_elbow_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_elbow_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_shoulder_roll_link",
+      "filename": "meshes/right_shoulder_roll_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_shoulder_roll_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_shoulder_yaw_link",
+      "filename": "meshes/right_shoulder_yaw_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_shoulder_yaw_link.STL",
+      "exists": true
+    },
+    {
+      "link": "right_elbow_link",
+      "filename": "meshes/right_elbow_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/right_elbow_link.STL",
+      "exists": true
+    },
+    {
+      "link": "left_shoulder_pitch_link",
+      "filename": "meshes/left_shoulder_pitch_link.STL",
+      "resolved": "${WORKSPACE_ROOT}/frameworks/shared/lens110_isaaclab/lens110/legged_lab_lbot/source/legged_lab/legged_lab/data/Robots/model_humanoid_lens110/meshes/left_shoulder_pitch_link.STL",
+      "exists": true
+    }
+  ],
+  "boundary": "Source URDF vs runtime rigid-body definitions; not motor identification, contact-model equivalence, or hardware validation."
+}

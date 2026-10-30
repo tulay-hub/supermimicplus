@@ -1,0 +1,20 @@
+{
+  "pytest": {
+    "passed": 126,
+    "skipped": 3,
+    "deselected": 6
+  },
+  "ruff": "passed",
+  "mypy": "34 source files passed",
+  "relocated_runtime": "153 CPU MuJoCo environments reset and one policy physics step passed",
+  "relocated_unseen_replay": {
+    "clip": "cmu_91_04",
+    "seconds": 18,
+    "hard_termination": false,
+    "norm_return": 0.918806697593795,
+    "same_as_original": true
+  },
+  "archives": "three checksum-verified archives extracted into a new directory",
+  "model_weights": "original bytes preserved",
+  "csv_numeric_text": "original bytes preserved; metadata headers normalized"
+}

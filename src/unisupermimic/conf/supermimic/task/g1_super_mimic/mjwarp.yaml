@@ -1,0 +1,12 @@
+# @package _global_
+defaults:
+  - /task/g1_super_mimic/base
+  - _self_
+
+training:
+  task_name: G1SuperMimic
+  sim_backend: mjwarp
+
+env:
+  mjwarp_nconmax: 128
+  mjwarp_njmax: 500
