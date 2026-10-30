@@ -1,0 +1,16 @@
+{
+  "algo": "supermimic",
+  "task": "Lens110Lafan1SuperMimic",
+  "sim_backend": "mjwarp",
+  "device": "cuda:0",
+  "collector_tensor_device": null,
+  "seed": {
+    "configured_seed": 0,
+    "configured_seed_source": "algo.seed",
+    "effective_seed": 0
+  },
+  "source_checkpoint": "runs/lens110_lafan1_full21_20261028/last.pt",
+  "source_checkpoint_sha256": "658f8b6ad8e87eb00af0d1f4513078946048573776131c89ce3cb1670a11dfc8",
+  "source_iteration": 12000,
+  "additive_motion_library": true
+}

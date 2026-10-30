@@ -1,0 +1,18 @@
+{
+  "module": "src/unisupermimic/__init__.py",
+  "environments": 153,
+  "observation_shape": [
+    153,
+    75
+  ],
+  "goal_shape": [
+    153,
+    570
+  ],
+  "action_shape": [
+    153,
+    21
+  ],
+  "finite_runtime_transition": true,
+  "scope": "153 environments, reset and one policy-controlled physics step on relocated CPU MuJoCo; full original evaluation recorded separately."
+}

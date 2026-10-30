@@ -1,0 +1,1961 @@
+{
+  "training_clips": 153,
+  "base_clips": 40,
+  "extension_clips": 113,
+  "heldout_clips": 1,
+  "csv_layout": "root_xyz3 + root_quaternion_xyzw4 + joint_angles21",
+  "metadata_headers_normalized": true,
+  "numeric_text_unchanged": true,
+  "files": [
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject1.csv",
+      "group": "base40",
+      "frames": 6702,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "7b5f01897d82cd8263d9338a4f5ffa022d08936b8f29e3776872a0deb4ae1d8b",
+      "numeric_text_sha256": "217a6c9faafcbf0f4e57c153e74f1b4a45058e745083a7ced0d539693b087dd9",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject2.csv",
+      "group": "base40",
+      "frames": 6928,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "0741aea4432a36e5378075baf476dcf2487e7911a38def7778e2860c29b17bfa",
+      "numeric_text_sha256": "cab921a8712fbb2987978b4bf90408267a6c6a9c6c510f79b560c0039800e9c2",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject3.csv",
+      "group": "base40",
+      "frames": 6608,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "142db909ace5b59bcddb8e6e4283c0a35c0375a226f4889d0b8a7f9e8bd48db5",
+      "numeric_text_sha256": "fa7e219842509bbac98847138c7a266a3de27edeb90b85d41d67c8eac58b679d",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject1.csv",
+      "group": "base40",
+      "frames": 11769,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f54b86810bcd51b558fcb15c28ad51494fb828c9f441a9cf2624fb4a0886057a",
+      "numeric_text_sha256": "9257832a2242893eef64a07741848b555e83748111e2a2bf74cffa6e1e41fa24",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject2.csv",
+      "group": "base40",
+      "frames": 11610,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f2cbd6f1bb173e0b02e5be94316b5e1ba7e63e38ee4185ac7fa6da4c33329ba5",
+      "numeric_text_sha256": "f309109ffe32f9254bab8f604927613a58a53a6a0c39cba1deedebafe806128c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject3.csv",
+      "group": "base40",
+      "frames": 11360,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "86cfc00cc7e09511af37dbccd149c11c9ba85432cb44983355c349409388c9f8",
+      "numeric_text_sha256": "f33671073f962adc5c20b59e1d860934eeda0d09cf7b9c56f5f406a9e9546abe",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject4.csv",
+      "group": "base40",
+      "frames": 11766,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f4207fb1ffe8d437544b936ab99ff95acf27d90845bef74f2e683c66f8d7fcbf",
+      "numeric_text_sha256": "e78499b63d1de3f2eecd83b92bb3492a269b9055c13736e8371b8f8f57e3deff",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject5.csv",
+      "group": "base40",
+      "frames": 11490,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "ce3ef52b1e1cf93ce28e4989494c7b588f5888824f60a691a087babadacf6150",
+      "numeric_text_sha256": "9decbd12025eec7a2c538379b1b2a27695b973224e49c966566d0ba1e726f66c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject1.csv",
+      "group": "base40",
+      "frames": 8491,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "82949172f8a19810f21f881c996ef68d9135de491812ad26216aba3942ad2d9f",
+      "numeric_text_sha256": "e781836f09755fb86c8e57c133c9be8c32cb0ebb28edd052d0318c88a18858ef",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject4.csv",
+      "group": "base40",
+      "frames": 8475,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "455923f72c47286829b7083cb80ac8f960a4924adb80de18e178e171b9b14fc8",
+      "numeric_text_sha256": "1ee6caceb46c62f4b004b3b23800edec4bbdd5a1087db58af624f0429d60f55e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject5.csv",
+      "group": "base40",
+      "frames": 8512,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fd3177dfe24eaf3bd4128a80e3f74a322b016345889f104ce4cbe5cfe0a9e1f9",
+      "numeric_text_sha256": "0febb9f409b609e7ff33a824f14e45a8ea041506061363245ea3289fa4a31e3a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject2.csv",
+      "group": "base40",
+      "frames": 8258,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fcb6322e0763f06fb1604b7ee9bd51d0772382b58f94b84e04514f7f12d6b183",
+      "numeric_text_sha256": "3fd3b0ab411d034ee7ab2a95607779a15132b38ce6e8e1b31f9640310dcc3e63",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject3.csv",
+      "group": "base40",
+      "frames": 8215,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "218c21acdbcc6bed131ff83fa7db860462ac62dc7441558fc7a97e9c1cc3a048",
+      "numeric_text_sha256": "31fcde40c76d72736c662586a019db8a97eac3889c9e4f3b3b545a86bdecc7bc",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp3_subject1.csv",
+      "group": "base40",
+      "frames": 5149,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "92870fb16fbb5b3df71d686f8a1b3995cf4f6b6ab6189ae35256b5e032964d48",
+      "numeric_text_sha256": "40a25e537c43611e2ad7f34381f081cda51d3d3da8aadafba1af9a796c8cd062",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject2.csv",
+      "group": "base40",
+      "frames": 12463,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fd80c6eb8b7bdbe00a43bd6313f46963369f266c4b640b60f08455f3bf85e107",
+      "numeric_text_sha256": "1cf0e4e47c73bcb642a01139d259c843422c5873c610c231c365bceecbb9b127",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject3.csv",
+      "group": "base40",
+      "frames": 12357,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "3d55a4f2a24fc26260c3013e17a0e2b1ea355ec00f0d28186dd30f9f5bc766b4",
+      "numeric_text_sha256": "f10f03c18eb4a68e852e452a8aa1223512325a960f9e04497e3bc7fadf36c70a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject5.csv",
+      "group": "base40",
+      "frames": 12343,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "384aeb7d7f47dcbe792b69f18c180b0639770e4c078c1ec664005d9a9feb0e9c",
+      "numeric_text_sha256": "8730c9e5f0b5afcdd8a4519a79fecaceb786dc1b264f2cc24d68632760918cec",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject1.csv",
+      "group": "base40",
+      "frames": 12403,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e82edc9eb7227e9acbc983ebe2da1dab51ad29f45c4919229e88a50233d21bfb",
+      "numeric_text_sha256": "dd7f6119db6c6fd0e1b1a76eebebd219a279e84cbb823139b5fbcc6cc3261373",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject4.csv",
+      "group": "base40",
+      "frames": 12515,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "3b9e2249d2da658a3be3041393c441a9cd0f002c5f6f08a63cdb3f6f63005e74",
+      "numeric_text_sha256": "4157cb0f07ba40308e2ce6e0c7370ae703f2c78178e2f179061266774ae3ebbc",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject1.csv",
+      "group": "base40",
+      "frames": 12324,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "eb1751703524ed68706211db59ea8fdae541286d81428e9371b35564e23f6b55",
+      "numeric_text_sha256": "98390ec0abbefa2a9a3f79ebbd5b8d5ce4d4386d64b75acf21ff5428d9f5e7c0",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject2.csv",
+      "group": "base40",
+      "frames": 12281,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8120534185e69a7555a20fa3224b4e93ef89601de9c84d9bc58e08698ca998e3",
+      "numeric_text_sha256": "92da0b8e80cd9ceda26513f3e45d0767d46cb0c1e6f79d6ce3057314aa7c11ca",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject5.csv",
+      "group": "base40",
+      "frames": 12279,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b6da4ed95fe95e60de83b6fcb7946cdb5c2a02b891318233f988a545246104dd",
+      "numeric_text_sha256": "7300e30736f557f28e350bfc80f7fc989fa0e0f32350b996ed2837fbcecef79b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject2.csv",
+      "group": "base40",
+      "frames": 12036,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b5e98409909c8bb235523b2d32e02f5484a3fde0be405d617f7bb5545586b3ea",
+      "numeric_text_sha256": "593a18e6db17f79230af71ca20a1a4fd8740428fface14fd5bd410a9727b9461",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject5.csv",
+      "group": "base40",
+      "frames": 11964,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5eb8d5f21f8909285aa4bc9a8f16a38e2a9456e06c02d59fcefad5cbc99f6798",
+      "numeric_text_sha256": "4c363b14efd54de32988a72eae426d41cd267a73e459538d0e980afce1e8700b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject1.csv",
+      "group": "base40",
+      "frames": 12340,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "22bdc84a496fb143cc65866c5f0701f10eec0812397fcfb2f199792ec39ef4f2",
+      "numeric_text_sha256": "33194b8ddea04f74f137754faed2216754608c8ba1357a3b093da58c7e5712e4",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject4.csv",
+      "group": "base40",
+      "frames": 12320,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "6513b10567c92d49adcc36b3f7ad4bc891bddae1ba8139357eab0dc6c91dbc64",
+      "numeric_text_sha256": "3b9a385e0d1e95efc7dff3ec05767afefa9b9decd31c9a65ade94c9b740adc83",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject2.csv",
+      "group": "base40",
+      "frames": 13811,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "a3de7b45c511c43e9ae0bb680babb22b4ac55ac5423188b8061ac5584b7a8a54",
+      "numeric_text_sha256": "ee1b5d6ab9efd96af315f5910b3fd5993a8d38d0a897d8b391c500659ed02cc5",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject4.csv",
+      "group": "base40",
+      "frames": 13884,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "4f4618b9e4298313f03fbc4fec1ad377fb1c50894237fe6fc2c360f10a8d777f",
+      "numeric_text_sha256": "7e3dccafff094a278f1a095caddc4e11694ef0efa844c4de8706accf08ade8cc",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject1.csv",
+      "group": "base40",
+      "frames": 13069,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "18c3a677280267a8f9737cd505863399681f8811f52e2f01d34419e80ac71bae",
+      "numeric_text_sha256": "9df705ab503707729c04b14eba790ae6a1899021e9269947ef7ba0c8b6ecb0e0",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject2.csv",
+      "group": "base40",
+      "frames": 13083,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "2c40242a9fa0a1795342b7ca9e3261d2b9936204fde6e7ec514ec59b70470e1a",
+      "numeric_text_sha256": "d4ec40f84562f6d214b252dcfae8ac8ba49bbe9d9ae2266a2ff45bfd2b0ce75f",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject5.csv",
+      "group": "base40",
+      "frames": 13084,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5f54a9a4e4c9bea5674566972a60c00039855ae8bb462021bf0b6d8db9e1802c",
+      "numeric_text_sha256": "03c15783e3c04b9dbfc2f1ff54b973b4b6f4d5e5609d64f9795df683038f2fde",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject1.csv",
+      "group": "base40",
+      "frames": 12007,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fb6503432d1e1a514007cd56255e9f72d4cfcfa641e611113e0a98b2da51e7fd",
+      "numeric_text_sha256": "30f6510cc949da2fa057ea8db93ca26f3c28c3fad6d39f49d08c4f4a33bf352c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject3.csv",
+      "group": "base40",
+      "frames": 11921,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "061ee581c80d9058675c9212a0d797dabe0eba4bab9f1db4a2ad0b3cc48d210c",
+      "numeric_text_sha256": "ae16e7d812f55d7df9e6f88963ec4ed53d47d7a53bb6d50f5da70f0494ed17b2",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject4.csv",
+      "group": "base40",
+      "frames": 11929,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "a0a23241632bddc93032a1448a30cc19d0274c975da6b98ff5fb7b3ef57d19fe",
+      "numeric_text_sha256": "0366d56d84ac477efb654f2267b44cb6b6009df106aab1befa629e472a5ff12e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject1.csv",
+      "group": "base40",
+      "frames": 12347,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "aefce8a0c94d31b8065d1c89f1d87d94eb3b9a3b7f0e4d46ee383cd6e350fd67",
+      "numeric_text_sha256": "e1fe2e85e98508debfef2ba59dc7228cd6a8feb81d07cbf7ea8f2866e5e93f83",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject2.csv",
+      "group": "base40",
+      "frames": 12355,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f89b077eddc113dfb2df5f5ff5e2d6e1a8a423a0bfd4b01b09d7a399496e74c9",
+      "numeric_text_sha256": "fb7341efc624027f894a96b1af227624b6d648ef73ee1860849c283455516525",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject3.csv",
+      "group": "base40",
+      "frames": 12353,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8bb9079613f934c81a148968e0835667d752f2fed7f84557a2437e1c7120869c",
+      "numeric_text_sha256": "c336c34db5941338cedd95a0daffb6b31515a3370473b73d84f63a3a3d1d59e5",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject4.csv",
+      "group": "base40",
+      "frames": 12371,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "174d9d69b4fd6cc97f3a6148f687b2f711eff2a997024e5000f9a0889c1567a0",
+      "numeric_text_sha256": "9f38b4919b17a01d97b81066e594eb759a9cb43cdfeb671dc4e015fa4fdf9c0f",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject5.csv",
+      "group": "base40",
+      "frames": 12335,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "91be2746304469df68123f4992c725fa574e947ddab571bb3f44a69f2502b5f0",
+      "numeric_text_sha256": "da21070fdae714f78f6a17298f046f13ce14e81296da37656dab059103db7a3b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk4_subject1.csv",
+      "group": "base40",
+      "frames": 8197,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "81e417d380a89f41465cf35ff61eebc9603abd57f769eafe86c350615ecc5689",
+      "numeric_text_sha256": "b13c5b7b43079e4e315784d453a18276808dcc921d7d09f1e7264826c6b3fff3",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C6___stand_to_run_backwards.csv",
+      "group": "extension113",
+      "frames": 374,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "421dababdf9a855a2e80f0be6284a77d6325cd6712e9133abd5c1d0c5f4ac63c",
+      "numeric_text_sha256": "71e727eb857b2ed9d8393793da99dd260b4fef4834cb9ff61f03a7a9ff09e543",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_E2___Turn_around_left.csv",
+      "group": "extension113",
+      "frames": 654,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "693c527a192e3c02c09bc79b5a81f251e5886ebd2c8ce32121a3cc9bda2553b0",
+      "numeric_text_sha256": "4c30785fdc95c2a09ae12ae63ba24c279c1f13992e6d1ce11232987b67f67b80",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_E5___retreat.csv",
+      "group": "extension113",
+      "frames": 386,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f12a10c94cb46811ec3016afffa8b1ce2abf8c2c87c751368a619b67db66632a",
+      "numeric_text_sha256": "1831b9a4f3947f782e26b857fcd8f1a49917c46885209afb69da2b4f21b526eb",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_B7___walk_backwards_turn_forwards.csv",
+      "group": "extension113",
+      "frames": 433,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "9f73fed5f63a5a02675ff0da7ecbe3dc08d9ce058e9d5d460eec4cd019b0781f",
+      "numeric_text_sha256": "53e56d7926f6d5ae638456e8bd0659869fde86249cd147606598921f77fb4861",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlhandball_S07_Expert_Trial_upper_left_225.csv",
+      "group": "extension113",
+      "frames": 374,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "39ef99829260b857fadeef13d73f95d2dd2e60894e2cd0e0bd7309c83c601d99",
+      "numeric_text_sha256": "060db8065cbd80a4c96772bfc1a28ca0dbaa93bd24717f7c179ef70aa020565a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlhandball_S07_Expert_Trial_upper_right_180.csv",
+      "group": "extension113",
+      "frames": 437,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "51baa6405b34111131fd55abfe101cd00efccdfabc1d1b36f3de82691bfde210",
+      "numeric_text_sha256": "58991692e8fb736d5a3015bcba28b869c6d4be848a5e77bc0920f64891077d45",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlmovi_Subject_80_F_18.csv",
+      "group": "extension113",
+      "frames": 401,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e2e23bf29c4bfb600a92169ddb2051e4bc697c7146ee75a0260b9aa2d52a57c9",
+      "numeric_text_sha256": "f2a864ea76ae9acd744aae101adac46506004f4807c1f28ea6430c0591a5d5f8",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cmu_49_19.csv",
+      "group": "extension113",
+      "frames": 399,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "10eb523568909ea4227f607412a6a7c429b33c12a942976d43817c23508d07a8",
+      "numeric_text_sha256": "0aafd6e8bd8b602716eb08f1df8bb41c645016180e0ed7c6ad8f6a725cb697ef",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cnrs_288__03_R_2_stageii.csv",
+      "group": "extension113",
+      "frames": 393,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "ada56401f84d20bd119ca4f2c7dfac36acf7a0556fdc4f02a9498c35a2236975",
+      "numeric_text_sha256": "86e1854fbb1f85cd18f84c3eade449868879c2950019b0b606ed78251164b02c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50002_punching.csv",
+      "group": "extension113",
+      "frames": 252,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "968439a5ed642a0dda92dbd03fc7a8afa4ba8961896ac709e022e050a4debfee",
+      "numeric_text_sha256": "c0045bc0d85dbe3332cec84437353bd76d914f31df745ae79413b9ee42870e2b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50002_running_on_spot.csv",
+      "group": "extension113",
+      "frames": 276,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "de812a664fed4f0d19149e4565a4868890ea4d4d2dec4bb404bd3d850b3864f5",
+      "numeric_text_sha256": "aa22c9946bf1b2667ff3797653049c57dd97825b2e008313f6c9cda27c3eeacd",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50002_knees.csv",
+      "group": "extension113",
+      "frames": 416,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "bd8c7846dff6cbb52ecdb05b7f49b55009f9f3c134eb60ac293455504b01a911",
+      "numeric_text_sha256": "e922497d9f82be7affc9bea19ca8c8cb26e150d158c47b5f25922f6264410770",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_throw_toss_04_both_hands_over_light_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 795,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "a06e442480aea02f389acbd9484c07966b1745a17b9881219987e209c49505b1",
+      "numeric_text_sha256": "9821b3416548582879a234972373397cebc4fc10ab709f24f5515f4d89e688c5",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_turn_01_call_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 1089,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "0bd654c8157dfb1da3a37071c42ecaa8e32a1e6238cb76a141be1fda231b2a0a",
+      "numeric_text_sha256": "1a587f56837d9abecc8089393ae569385d4bcfb9833ba5e1e184c9ffa6aebe7a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_gesture_etc_16_dryer_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 413,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "ceec809220e0fd2a08ea3e3780653a8eaf61141ccadbfbba72849f3cae1c0a14",
+      "numeric_text_sha256": "43a09a0d88f3756dbbd12b9c77ef29696d3194dcb91646bc90202eb0a3e29277",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_walk_06_catwalk_frederic.csv",
+      "group": "extension113",
+      "frames": 703,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "cebf69bc37b7f7b4f580cdaec6d893809241f8c1c257a0842c7ac2433213738e",
+      "numeric_text_sha256": "a5dcdf8b094210e05cba14e461bf9a1662265c3e4140fc248489deb2cbf9d0f3",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/hdm05_HDM_dg_06_03_01_120.csv",
+      "group": "extension113",
+      "frames": 138,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "6c3d219eb0c8c8485ed58cf1f8613c08fff531f84e7e954f601383339b98125e",
+      "numeric_text_sha256": "67afe48f0e93e0daf9a87f07570e4132244f7dd900e1ff892d08f3d7f4abf69d",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject3_Medhi_INF_JumpingJack_S3_01.csv",
+      "group": "extension113",
+      "frames": 629,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "addadb57ec6a9ad43b0937cff669332864190b9ddafae49a2861352aef6c437d",
+      "numeric_text_sha256": "c08487973aeed7a96de9deb706ff898c039a4f3f1120ccc7e39188795749f3f7",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject3_Medhi_INF_Running_S3_01.csv",
+      "group": "extension113",
+      "frames": 649,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5affdd4a4ab6c928dc02203ef915432e2b095344427d117826bdfec7d62c3969",
+      "numeric_text_sha256": "f55341f295ec18e23ba8b5f8f8feb1afeecf3ed2c726783a9ba550edd3e3674f",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject3_Medhi_INF_Basketball_S3_01.csv",
+      "group": "extension113",
+      "frames": 867,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e5af96dc2237caf0b97860a065b5f89121eec0834d74f464feb9d56f156c4af7",
+      "numeric_text_sha256": "f2eb364cefcd0471fc087749c46c7e338fd532268057f09b3b98bfa7fc57fca8",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject1_Karim_INF_TalkingWalking_S1_01.csv",
+      "group": "extension113",
+      "frames": 958,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8313959dbab50ca0d7df374344df93e5438f2bcb111e09d883a0ca4d9a6b750c",
+      "numeric_text_sha256": "61189a0cbb7e9b499ac4ae7c1d8036a4c78203f0053785dddbf2692357b29290",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S2_Jog_3.csv",
+      "group": "extension113",
+      "frames": 656,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "4d98c7a48236c48e563254f6f0a38b0c78a5930aaca8e388a34026d1241e0173",
+      "numeric_text_sha256": "f595ba397ed06841dd0edbeec102b9e5c4318c21295d2862b3035661c958f1d7",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S3_Static.csv",
+      "group": "extension113",
+      "frames": 150,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "dc15d98b851f77d9c7cba03b6ddf92a7eb2cfdc63b9e5ef0bac273443dd9d955",
+      "numeric_text_sha256": "e7b1cc13320f5cfa70ca9ea401ad8aef9896bd12f6cf9ac55170eb5d475b4115",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S2_Walking_3.csv",
+      "group": "extension113",
+      "frames": 635,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5cc212c4126beafb9bf79da7819d8cd27a29962494d551055dddb4b8f69bd517",
+      "numeric_text_sha256": "89b76a9efeb21f591a43ce644f251813142318893a032429509a4e81e83ce5f9",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/mpi_mosh_50025_simple_crouch.csv",
+      "group": "extension113",
+      "frames": 428,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "57b0ac6ebf92c02638293798093ab44a78be1a96df420a0a874afdba941a6d7e",
+      "numeric_text_sha256": "e94f92f012f7c6d563b9d1dfc017099bbdc4f5369a004c15058a91c5b3ecabc4",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/mpi_mosh_50025_one_leg_loose.csv",
+      "group": "extension113",
+      "frames": 446,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "703430053087cddf9998f299ccc5364b263cfad54f8900e867f36e7f950a1502",
+      "numeric_text_sha256": "a2ed95e0f667215365718cc1560da0d288472716a60364c776c2721bac372481",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/sfu_0005_SideSkip001.csv",
+      "group": "extension113",
+      "frames": 452,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8f87e8296e5ccecc64418b60347907bb48f587aa75043fe9d50bb23d8d0c61ed",
+      "numeric_text_sha256": "be2e6c8173bf0b105f352811e829f6211a13b49d58d72754ef028793dfa72324",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/sfu_0005_Jogging001.csv",
+      "group": "extension113",
+      "frames": 574,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e1e91223232fb6eea58de3b94bfecec668d60047d3dc816f21ffc000e88de1f8",
+      "numeric_text_sha256": "3843621ae502d597ab26f845888f28aa8e37020510078ba699b5e469939f4a3c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/sfu_0018_TipToe001.csv",
+      "group": "extension113",
+      "frames": 335,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fee78e87be1dc144d53ba71e70cdfe53a81b2d7cd235005aa642d67dd3ca1a2b",
+      "numeric_text_sha256": "677e32480e746cff88c9e05fb9c171f12df23a7f3e49e2e004f9108c44b666ca",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/sfu_0018_Catwalk001.csv",
+      "group": "extension113",
+      "frames": 588,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "7a062f1626f9491022563b0b0df943efd8208309e7b5d188e2b44e54a1ce55c0",
+      "numeric_text_sha256": "5a0bd209d7e5fc86541945a911b2fd60542dc352a53daad18cedd228007bb4b7",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_JOOF_push.csv",
+      "group": "extension113",
+      "frames": 445,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "4eafc4ace4726621aed853ad0f8fa747f92483a81a33b56831a846caa8a265ee",
+      "numeric_text_sha256": "76d6b95c1317839cbe8cc38725b4cd985d641ec0650d31b72eb1199634725980",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_punchkarate_push.csv",
+      "group": "extension113",
+      "frames": 428,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "a1107f8fb059cb45e95627dfe38a1b76a231efb7f95a9b9d3cb247c70f30c535",
+      "numeric_text_sha256": "b7ef10318f65d625c116e9c195a60437a341f2fe9f0e3cee5aac15b26be5fdbc",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_JOOF_turntwist180.csv",
+      "group": "extension113",
+      "frames": 318,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "44fa8a9b6c9eeb516fb87d17cf750120b0b40f705dcc741e3d812258aecdeed2",
+      "numeric_text_sha256": "1ec3d16dad02ca146013b2910001825892d5050d07e89dedfea8dd0ab1e23ba9",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_JOOF_walk.csv",
+      "group": "extension113",
+      "frames": 399,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "c8d3b9f2dc616a636ae16f98b2082ff7725ec3703c31ed33db6adf240e93eba9",
+      "numeric_text_sha256": "df9ce798cdf38d965a0b192870883a60e928efa4004af6ceab90b0a5bdd1a4df",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C2___Run_to_stand.csv",
+      "group": "extension113",
+      "frames": 266,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "2c9f528f3102db6c8423cb4f58f3512416d221816c191f6502ea511d29d99d35",
+      "numeric_text_sha256": "716e03a854b737a9bdc8bc9b3f94fefd9d80fb27de127343028cc71420ac1a68",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_E1___Turn_around_right.csv",
+      "group": "extension113",
+      "frames": 718,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "2eb3c7694c20547ba7337ce2efaa33b3dfc605177129ae6077c207a68b256be3",
+      "numeric_text_sha256": "44e4b963e7261032c732df3f6f35cdd79e51387c12d02b005ce7911087989cc9",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_E3___advance.csv",
+      "group": "extension113",
+      "frames": 318,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f91e94924ac2fed8d8bac53cb85161bf5c6d0080b556099ecaa2ee743161e319",
+      "numeric_text_sha256": "13b7faa9587ba78358d550230ac1e1cfe2fa9fbf52c806500f5362a448bbc51a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_B18___walk_to_leap_to_walk.csv",
+      "group": "extension113",
+      "frames": 285,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "699ce8e9197a4dc5a31a4b22d550794937e3c439309da88452ed6da5c63d8a3d",
+      "numeric_text_sha256": "6024752b14b0391c71080919952ad09e57a8059661b28eda5067d85ad1bcd221",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlhandball_S07_Expert_Trial_upper_left_082.csv",
+      "group": "extension113",
+      "frames": 441,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "390f7592dc6ef04fc8d0118b529095072abc8dc3ec1a747e27351ebbf1328dc3",
+      "numeric_text_sha256": "a26985e8ee27aa3bde74dc97a47eef87e9e083347681e1c40a2e371d29e4fdd3",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlmovi_Subject_38_F_16.csv",
+      "group": "extension113",
+      "frames": 401,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "6632c11996b40dc3b746562df957f157914647337b16fa6863328a89704a6d3d",
+      "numeric_text_sha256": "2e64083e6b703e2b35a679ef881ed5651475cae32f3590b273ff941caa0e7e13",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cmu_49_15.csv",
+      "group": "extension113",
+      "frames": 395,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "2a6c145d0371bea58ca14de0835e1abc7654ec4595606232dd0510d8353494da",
+      "numeric_text_sha256": "df09c1f5b430e1d1e52aa5f7f82b182eb9f29c09ef0cd4d9982b2cac109fe40e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cnrs_288__01_L_1_stageii.csv",
+      "group": "extension113",
+      "frames": 375,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "944350dd04c11ebb55d09a18948a3520641b71bcae2348dd4f1ae78c49be1dfd",
+      "numeric_text_sha256": "2c1f0c200c3b31aca113221679e97b1e78a125bbcaaac0ae0eb1fac03c72ecd8",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50021_punching.csv",
+      "group": "extension113",
+      "frames": 211,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8761867d7cda209c579707414d6ffbfd39b0599063d9d0fc41db5cfbc29b3ac7",
+      "numeric_text_sha256": "2b4b939a95f0c2fd09fdf39367d8b60cba9608703e3f076db5eed9fd2bbdd99b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50025_running_on_spot.csv",
+      "group": "extension113",
+      "frames": 276,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b7a09d12fa8f0c890a5dd7f0bfcdfbc00f7243fc18ad27f58f10f37ce3d6d64f",
+      "numeric_text_sha256": "3af5eee66892f23aa6a97e0ce1f9d8b5c211998c178773604a5eec108ad52bc0",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50020_knees.csv",
+      "group": "extension113",
+      "frames": 429,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "01c4ed78d50d8428de7ece8153626e7b4807bf9a7fd948cb953f47f24bc5fc1e",
+      "numeric_text_sha256": "5f89c8d1c2c7b32a6f20c85e84724c351db1b4234a0c309b14174fcd4fe15113",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_throw_toss_05_both_hands_over_heavy_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 982,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b1eaef5fbe37cf889b8384f7efb5cf7cc18ef59f92f6fb58ef03f6b941d66226",
+      "numeric_text_sha256": "007bdf6377a45fca7a510853f86d18f4f33eba208ea5e1d5c012c35a9c48cbda",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_gesture_etc_34_peace_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 601,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "ccfab88eee29f132c631ed5785586dc14e453b7b64a48e8395c26a1d20d66bec",
+      "numeric_text_sha256": "b664705739d2fcdb5a6c5c17abc623a09abde544e88659161ad1a56dce38c858",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_walk_04_fast_frederic.csv",
+      "group": "extension113",
+      "frames": 727,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5c9535b55c77a825388a2515d1b3efd50b96e028eb1670eac2edd1c7a1edaa78",
+      "numeric_text_sha256": "cc51153ef8acefa915c1df56ce66bd53a0df480774c0e3414b0065f8e8ae860b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/hdm05_HDM_dg_06_03_02_120.csv",
+      "group": "extension113",
+      "frames": 119,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "9bac593fa676b364a4dfc5a21187ced1d923b71b509545f9675b2c417cc9cac1",
+      "numeric_text_sha256": "4bc7e8c893abdfae2b55cd28117f53ef8009132b4e9d66a91177b9082107656c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject4_Carine_INF_JumpingJack_S4_01.csv",
+      "group": "extension113",
+      "frames": 768,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "098e5d2853a57e08d41b3986137018f19d6882f5db4dbeef254addc807f04acf",
+      "numeric_text_sha256": "bdce6e612008e66003571a5d367984b1675d4b9ae433f15f3d2bc2a66fb3217a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject1_Karim_INF_Running_S1_01.csv",
+      "group": "extension113",
+      "frames": 754,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "71049ab8098a2fa0c63c6ca53534fea1bfd16708913ef4047bd4cd4fd9ad690d",
+      "numeric_text_sha256": "0a7bd90f082a9c11bcccba37231b09b053ed1819204fd87921884d557ba5be08",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject1_Karim_INF_Talking_S1_01.csv",
+      "group": "extension113",
+      "frames": 1083,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "090880a2299e8201894ebe7ff6e1963948622504ef9d5c5fc221b0e910328835",
+      "numeric_text_sha256": "d5af0edbb07deb26a04a12702f363fafdf93996b2754da7e5a0f1090037d684d",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S2_Jog_1.csv",
+      "group": "extension113",
+      "frames": 717,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5968629f48c1db3edb57ff0ed3a0623ad35f3286e4760a318e6a34e3ad4744e5",
+      "numeric_text_sha256": "a92c863251346fc5b9f306b355a6b1394b8a470d4a78ca5e2832dc9d8bcd655e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S1_Static.csv",
+      "group": "extension113",
+      "frames": 150,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "bdc32d99849904ec7e7f0e0023ba245aa2d319011ad62c92cc0e60942470775f",
+      "numeric_text_sha256": "50415c3141335fe825ccf9a9557d040b4b9872a46845ef4d41d6d95de02f533e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/mpi_mosh_00096_simple_crouch.csv",
+      "group": "extension113",
+      "frames": 610,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "0acc28dbe928245ca7cb0f8f6e37ad0a556518f507f280f4aaee7b5d0359e12b",
+      "numeric_text_sha256": "facee2b9eb76dfc5e73206c4cbaee6a8cad9dc21e076ab37f8364e45617dbffc",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/mpi_mosh_00059_misc.csv",
+      "group": "extension113",
+      "frames": 457,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "86ce4d7bf4b06dba16ecf0ae400fec3b9cda84a9a9b469dcf58ec67d02b39be0",
+      "numeric_text_sha256": "e42ae777a952d0cb2496b2727c8cd79c7122443a0016d9d24911fb30c4cc1948",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/sfu_0018_Moonwalk001.csv",
+      "group": "extension113",
+      "frames": 774,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "3ac0960b86e783c8d10903bcfcf01ba8433a0cd8c94c8aac7382e1425c5b8487",
+      "numeric_text_sha256": "2df97b0a195136ac2b20dfdd592b4360c85aa4e7a43735f863e76673718d1048",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_punchkarate_stand.csv",
+      "group": "extension113",
+      "frames": 295,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "144171ddcf29948b5d69b5b6d0b59044dae6aaf114e8b7410b06190b6b57f1c2",
+      "numeric_text_sha256": "84b1ea25be3afc33a58067ae8c7baacd770dc2e33f94c15236b886210a76f9c4",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_turntwist_stand.csv",
+      "group": "extension113",
+      "frames": 308,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8d49e7cc988eeda693ddbf8b28f048108efc270a6c8f03fec3942c3f3df70d29",
+      "numeric_text_sha256": "f270ba30dd04ed0d827ec16505adc0da9ed3f93420c357f39a6a77cd4f8fd020",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_walkbackwards_stand.csv",
+      "group": "extension113",
+      "frames": 394,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "ff79fd6686f9f9db887f2f204746d2e96ccfa4d134b4542616f1571b2705136e",
+      "numeric_text_sha256": "34b6325db7b2968896c0124e2dae0e141a82ccf770668c0fa62641e294e91670",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C8____run_backwards_to_stand.csv",
+      "group": "extension113",
+      "frames": 221,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fe2a730d3a97ccd5cc093fb9ca23841aec83b18f6e450e203494007b1e9bac59",
+      "numeric_text_sha256": "f7af36f8ed58781f6948f02ed70dc3527446d8c6f6e0284151e0a487217156fe",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_D11___ready_to_taunt_one_to_ready.csv",
+      "group": "extension113",
+      "frames": 269,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "6e6be7273c49719ef820cf5429563d21c2ac06cf79b57bb1b5176867f3353acc",
+      "numeric_text_sha256": "26bbf30e1d7d2a25aedea755b0f79af816972b0dbee9fae69ea584ab8803689c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C5___walk_to_run.csv",
+      "group": "extension113",
+      "frames": 271,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "ec64c993bc2dc7ae5f947bec2f323ec8dd93d81195839a9b3a04088cb44169bd",
+      "numeric_text_sha256": "de81ccd32571ea3edcc207942f4714a972fb66dfd8624de61f0fa2c23c105a0e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlhandball_S05_Novice_Trial_upper_right_001.csv",
+      "group": "extension113",
+      "frames": 451,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "1a6ca0eb04367775df36a04c66800e20028f3064c6ad0a37122e984fb73f55b6",
+      "numeric_text_sha256": "34eb79253aad12af585a2e06fb2ff1990476fd0a5066328f20d9106912f0c42e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlmovi_Subject_53_F_2.csv",
+      "group": "extension113",
+      "frames": 404,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "d8261f7c0b1a984c005fa52f216e3258e56e364c6012e27e2f52deb0d3533f0c",
+      "numeric_text_sha256": "b3d97ca41ea9636095c3134591974bfa6eec64e833d7a4842f173e078f3d0a62",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cmu_136_33.csv",
+      "group": "extension113",
+      "frames": 411,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "6a1dbfac32884822d2698b1d5b6b9b908804ce8099ef42955dd9a35ce6e71ae1",
+      "numeric_text_sha256": "49a733739f6d6791b175d3bd1f41a12e5af1fe1d6524c7522c143d13801e8c23",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cnrs_288__12_L_1_stageii.csv",
+      "group": "extension113",
+      "frames": 369,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "2cd3cca2607d549b8f035cb167f5281d062bd27a8d652a349c75b03214ffab00",
+      "numeric_text_sha256": "b96a775dc4c5d61828bedc5fd7275dc7f86e7d9981d1ddac8baf0c5c85476028",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50026_punching.csv",
+      "group": "extension113",
+      "frames": 177,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "348241bc3bf96c1183479bdd1361578fca93fff7579baefc36eeec12ede964a5",
+      "numeric_text_sha256": "316f871ad733218728684f64bfdd2632ef4aa913dc343e2ac152110ee5121d51",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50020_running_on_spot.csv",
+      "group": "extension113",
+      "frames": 206,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8f312444ceaaa175f9462c60094d60a6d9c42d1e46eb8133d0f0462936dbd280",
+      "numeric_text_sha256": "4dcf63f4c98d99963d5fe0f65e74d2c5fd39b13bed57df88f52b2c49b44f1700",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50022_hips.csv",
+      "group": "extension113",
+      "frames": 455,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b3fe454563e27f363c0591b1bed9f9a7ebbd7856dadecfa9622da6b32f018d58",
+      "numeric_text_sha256": "de553909154144c032e30ddcd66fd17abbf4e274badb4e07a4958b9291b6e7b8",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_gesture_etc_31_ok_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 696,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b3725d4931bdacfbaa3c2b30af8ded5a2d10cd5a73defc6773cdd5e30eff854c",
+      "numeric_text_sha256": "4551e849d75da55b436467dd72670fc8777e1a78abfe169480aced902e30a18d",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/hdm05_HDM_dg_07_01_02_120.csv",
+      "group": "extension113",
+      "frames": 116,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e7c30fd25ffbf6efd959e0e7958920586fc86d8b5b727daa2398382bf85bf5bb",
+      "numeric_text_sha256": "5e079084917cdaab848fc52ab3bca85f6d53bfee1fd62726306217a321014de7",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject2_Aude_INF_JumpingJack_S2_01.csv",
+      "group": "extension113",
+      "frames": 784,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "2afb4519aa3cfee0dd564b52b7692789c0889c2ae8495c7694c4e335fe41cb1a",
+      "numeric_text_sha256": "b7cdee8e78ce933657d1700787d3faf8ecf1b3e790050321df40649570de22e4",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject2_Aude_INF_Running_S2_01.csv",
+      "group": "extension113",
+      "frames": 807,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "ac5c2084521a2488a4a25b6ea1b109bec0ea44761496e4c0ec7d495a6ff49fd3",
+      "numeric_text_sha256": "7841650ce22fb569ded1a7c718b4e1d2167db93a48edc337be7295e2aefc1459",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S3_Jog_3.csv",
+      "group": "extension113",
+      "frames": 823,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e1200b650a5c136d6a2d366ddcbdc23868a70c2d248dbcda0a30b2984cc30255",
+      "numeric_text_sha256": "177182295f6ed9515b16c8d145a37580b2a67d294cba51848eda0b5acd743569",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S2_Static.csv",
+      "group": "extension113",
+      "frames": 150,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b03343da96e252f9d00ccd045131ee79336731b3fa109393f7c2407905e5c832",
+      "numeric_text_sha256": "649c6a3da462d86632d20485b1161042b6c9107564ea68360ce838a9a80b283c",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/mpi_mosh_50002_simple_crouch2.csv",
+      "group": "extension113",
+      "frames": 706,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "a66fa0f1cc1498d5d5d0147f7e707f832b2edc31843eed9551ba2379a31b1556",
+      "numeric_text_sha256": "dafd40654e2fb3f61d12dc2e138854fb9036b809fc24a34c46a9257653ce053e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/mpi_mosh_50002_hips.csv",
+      "group": "extension113",
+      "frames": 569,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "a2c293b27754f025ca5954e871193794c35cea9ee4f770e24382d72d8e48bb2e",
+      "numeric_text_sha256": "597b0ae50e4525114ec8f278885a54424e8a47b427cc0be58ccbc8d2290b5357",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/sfu_0018_Walking001.csv",
+      "group": "extension113",
+      "frames": 888,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "3ee6870905a83529f80665b0532bd6cb34c6e0b4f8d5ce4a681745df0d636130",
+      "numeric_text_sha256": "da17ade5b2cbb3cb170acfb8914a40edea8e8969b12464e26b281a184a82117e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/transitions_walkbackwards_push.csv",
+      "group": "extension113",
+      "frames": 378,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "7b387ec5d425b37f3e9e9104901e453090ede695ddd43bdea9ec1e7463bd659b",
+      "numeric_text_sha256": "2a889161600c91433acac03a66defbd80627e996e4cd232805ddad6b86f0b1a6",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C7____run_backwards.csv",
+      "group": "extension113",
+      "frames": 155,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "c886e4947950692b46361af94bb41c862451d28ea51c3bce3874f58406ddbee6",
+      "numeric_text_sha256": "d7820a5225ad2436c5a569ccdcf8a14d472b49d9793934a26cd5320bfd9a0c38",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_D12___ready_to_taunt_two_to_ready.csv",
+      "group": "extension113",
+      "frames": 269,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b38158d31f3a21274befc94642421fbff436666494b7d9dacf094e39a4a543c1",
+      "numeric_text_sha256": "1dce841e343ea2ff5aa19d45720b811e989d49defc077629ca900702230742ad",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_B16___walk_turn_change_direction.csv",
+      "group": "extension113",
+      "frames": 551,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "48d1828ec448679ad15fe1144e9e4c837275e8773719fa1c294c34dc1f93638e",
+      "numeric_text_sha256": "0ea0c34be14e7016bf672fd4b9a4f2ea42d23a34a5f8b0af4ad93c762f33c860",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlmovi_Subject_84_F_16.csv",
+      "group": "extension113",
+      "frames": 406,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "781878af8b2f32786eda65810ae3bd30fde83ee862402d85ed31be4b9f49c287",
+      "numeric_text_sha256": "41affea2b05d84dcd1b13fa35c8e7db29bac82a9b4c1b3c79a484740c8f07e67",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cmu_76_01.csv",
+      "group": "extension113",
+      "frames": 388,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f90715adc8ad10d35e180c2c7b6f1f025f1108177b5815cc598f3d20783a99d4",
+      "numeric_text_sha256": "fad543ee52ef8f45586557d11643992a15d5aad4a6788ff3daba799ba71429e1",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cnrs_288_01_R_1_stageii.csv",
+      "group": "extension113",
+      "frames": 354,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5ec6b1298d3b50b0ffe37d545dfb2dbdb5023e666870f54a0e0d67e325c04e38",
+      "numeric_text_sha256": "f58c3588fbd0b4e94211d52c62933171edee00596ee50911dbd516e982f2edb7",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50022_punching.csv",
+      "group": "extension113",
+      "frames": 169,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "9aedbcf6a87cb6d528974a2094035f6b80f9ec54e3f321eb3468ffa25f02d363",
+      "numeric_text_sha256": "e01f51f12a92db846fe2249da332f8d67a337116cd91ce1357740cbede452ef9",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50009_hips.csv",
+      "group": "extension113",
+      "frames": 457,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fa7bbb857b491af776fd6d6e9d3c4ae843f8259ffaf7abeef2ed31f9a6d2a475",
+      "numeric_text_sha256": "51cab59029b8d0407eea2ed3c45c2474a5784e968e9bb5203b52536a36ee06a2",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_greeting_01_hello_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 736,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "32eb49c168730204ebebafa6604fc5c7cdd0bcdea5e863f04284d7a251adfbd4",
+      "numeric_text_sha256": "08be8b6cb23e9836406c80c6b72473bc0c4924392eec677f13964d1fcf751f0a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/hdm05_HDM_dg_07_01_06_120.csv",
+      "group": "extension113",
+      "frames": 105,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "58b235da61336ea5794e4ed24285284375cf70a73fede964092c6e508a64452d",
+      "numeric_text_sha256": "4690c11cd9aae5f78a2ed1cd6697945c1cda051c9f570cdd773aa0cb45022748",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/human4d_Subject4_Carine_RGB_Running_S4_01.csv",
+      "group": "extension113",
+      "frames": 836,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e83cf7723e105f5b189f4e474d919ac8d801bf54ee8e0311b94da0470e1b9b59",
+      "numeric_text_sha256": "6065abfa87766c02345a94574b6258b94324f50e7e31212802ac44f028f4b2a9",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/humaneva_S3_Gestures_3.csv",
+      "group": "extension113",
+      "frames": 746,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "9a1129991a586a82f82f73f10d894576bb97a5120f61a328ee798503924b9a41",
+      "numeric_text_sha256": "47bca3bb875f399550464552f83a8cbbaa284133cb53ca37d4e671fbe419fcc7",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C26____run_to_crouch.csv",
+      "group": "extension113",
+      "frames": 150,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "25ee5db54e7f4f71f2e1b553798dec5e7b0649e053e6f9140ade5b6bae25abbf",
+      "numeric_text_sha256": "36336f9b76bef8cba9aee525436ccd2d35b57a4d2c0423090d544675b0f076bd",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_D16___switch_stance_and_bounce.csv",
+      "group": "extension113",
+      "frames": 245,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "687640997a55516dbf149fab37b58c4a1e1a8da05ae388757e512a25c72e371f",
+      "numeric_text_sha256": "ebf377b3b983d3d1c474481b961869080afd6b9c3c56a7e5fdeaa2dcd5d3e7b4",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_B5___walk_backwards.csv",
+      "group": "extension113",
+      "frames": 577,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "d848c549ccb56512577ce21947998043abc54d9a4e8ba6b986c586409d6acce7",
+      "numeric_text_sha256": "e2790847049112dc0a5b84691df47658dde4def33845d6b073fa21e191f88bc6",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlhandball_S07_Expert_Trial_upper_right_193.csv",
+      "group": "extension113",
+      "frames": 482,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "f44e15fcf277933afed9fb2d59838cac9e42797a11313a0cafb8cb47c7ce436b",
+      "numeric_text_sha256": "49a9722903e9d19ed56f7be3f1fead2b57000452a34d0f5dc91054da4c4d7f8b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlmovi_Subject_81_F_6.csv",
+      "group": "extension113",
+      "frames": 394,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "1c7cdaf410cbab4d452df515b555be2e00cdf2dd495e50307c04271e8d05dcf2",
+      "numeric_text_sha256": "bf24a785467e61189c928c8e4a57a9aafb4a35fd44dd932f20c4cf216355f730",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cmu_84_01.csv",
+      "group": "extension113",
+      "frames": 386,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "e234b96f614d27de4099b420ca605491bd27325692d763b7ea3387a3935aa32b",
+      "numeric_text_sha256": "65ffc4db7b58b2c698e820d71c5c061c2bd0b4183a61112bf28b0ee8bcf2e8c6",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cnrs_288__12_L_2_stageii.csv",
+      "group": "extension113",
+      "frames": 342,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "cde93b8be63a66a7f47e2bae8fba0f576a55d9773c145754153bbbc5891c4330",
+      "numeric_text_sha256": "32e4d3ac7abb5dfba10908c092ee6f412cbb23c94a334220f68013e96dbf9044",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50020_punching.csv",
+      "group": "extension113",
+      "frames": 169,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "5b1b873e946e75569afae542d706ad3c3e18f8f01287b071fceddaefc1d33798",
+      "numeric_text_sha256": "3d251dffa819e4e117e112ff931f20da9eca876e6ce44d184de2cfdda017ae96",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50021_hips.csv",
+      "group": "extension113",
+      "frames": 484,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "02b89c53a0adbaeb4138b1f98714f841077982fb532eab9b6e3759184fae301c",
+      "numeric_text_sha256": "48d41c3e9d208254384653ea7015573afd8ebae8d64f9a3ea862886bbb9df92b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/eyes_japan_gesture_etc_04_set_4_kawaguchi.csv",
+      "group": "extension113",
+      "frames": 741,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "da24286cd957752775fcc93d5b59832fa5ea1b8ad28a821f434f204fb1c783f3",
+      "numeric_text_sha256": "3dc0bc0795b0f217b3cc406a6f473dd8482c87ed24de1d46486f08a628177754",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/hdm05_HDM_dg_06_03_03_120.csv",
+      "group": "extension113",
+      "frames": 84,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "34d24ef447bf105a624195fddd28a6bb2b58fa5614306019bd7a02f9672d5e67",
+      "numeric_text_sha256": "184673e38e304aef9c602ed8e6c9ddcf70aa937eeb80accdf973d82f8d3b080f",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/mpi_mosh_50007_misc_1.csv",
+      "group": "extension113",
+      "frames": 841,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "0ff85dcba18ecd7297079ee4020b569c326c2a93430c0e98df6dca3905ca75dd",
+      "numeric_text_sha256": "f7892e9b909625de3ef19a07655c3ffd2b54af13c148d2246ea2170142703697",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C13____run_turn_left__135_.csv",
+      "group": "extension113",
+      "frames": 143,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b12891f4ce2ee46777fddb13ad632904c30a4734c0ef6661c7a7c985ab0a6c35",
+      "numeric_text_sha256": "5675436005b4f7f0e7337d1fb44b9515f492365e29e684af2db7d88d087da038",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C25____side_step_right.csv",
+      "group": "extension113",
+      "frames": 215,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "3c1f19530a912f6cb795b05b8dfc605674dffffa28fe87c27c5017af27c0e4d7",
+      "numeric_text_sha256": "9e0688b1b1d19b1a3a8dc6328b6b7f969b8b131bb6add9907792ebefc14d7786",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/accad_C4___Run_to_walk1.csv",
+      "group": "extension113",
+      "frames": 177,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "7754186ccf886d1f71be5b59188a4a78bdf5205b85b2686e0318e89c47239b71",
+      "numeric_text_sha256": "9c01ea83b9ad020aa7477bdfd455adcdcb7380246b1832d4e2fdca978253e151",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlhandball_S08_Novice_Trial_upper_left_100.csv",
+      "group": "extension113",
+      "frames": 490,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "600f9fd0768f0c87c295773769302ebe29507dd149d864e62be305a06f7f33bd",
+      "numeric_text_sha256": "8008166a1d8ee999250b9089422b2345ebbf53aca1bb1a6ca077c26b11aa721d",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/bmlmovi_Subject_90_F_6.csv",
+      "group": "extension113",
+      "frames": 410,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "7bc22399d9cfb03f8a2495d558b717d78c48d5912e94ddea221e2c7196f8dd16",
+      "numeric_text_sha256": "3db9f8c4c6ddf754e8a15fbb77a5a606e5c386bffdc5c1b3ab3e924fdfad9121",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cmu_111_01.csv",
+      "group": "extension113",
+      "frames": 416,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "fefa5dca766508cbab2b0b9eae7f31873dd5a2ca05011eedd794e5bfb3fab771",
+      "numeric_text_sha256": "beebc5e8ad4d7abe453033288b160f6fdc70fdb3e2fa7e4b01949fd67e27eda8",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/cnrs_288__08_R_1_stageii.csv",
+      "group": "extension113",
+      "frames": 341,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "62049d914f8f151e54b8e6285376d7c581e217c3fc87402c0465eecc0e3b6b05",
+      "numeric_text_sha256": "2b91af9a1f3f966d2c6c79e54e528dcfef22661ae271de5e69750db1dd7baef0",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50025_punching.csv",
+      "group": "extension113",
+      "frames": 166,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "8f5ecdb23ce0612d91d4ab79e38ce735d8318a2103fd1b72958bef9d76192658",
+      "numeric_text_sha256": "e8bf9d48faf8cd752d146ac7d5c77f6ace4d503bf45c1a83a77c284158eba936",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/yahmp_expansion113_v1/dfaust_50007_one_leg_loose.csv",
+      "group": "extension113",
+      "frames": 314,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "542ff5e1886c615a03e08fdaabff597ea0a79eb232906ab0930cafcd43fb85ee",
+      "numeric_text_sha256": "5dfc9a7c439415eeca5130e2f5b002497bf2e245509fd29f95713e3c1ae62821",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/dance_supermimic.csv",
+      "group": "auxiliary",
+      "frames": 3593,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "6df8d7e4b2127343243ad94a4d7d3be592d47dd10ba5b798d51798627cc3d7f4",
+      "numeric_text_sha256": "5a806e862fd86dd4c5be45904fd67a7a3eda3777bc4632f7ddd7a056942ec8cb",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance1_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 3945,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "d8744b618cad275edcf5f2ec72f3c8a9fb58fce17263c9e2bbb5000061cc3d87",
+      "numeric_text_sha256": "3d3725665e1e18960218b01a9b7e44e5ef9d2d38b843779316f2a21612c58c84",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance1_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 3945,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "bd91c3fe7ff1e0d8a350e9f0fed7222aba1ca62f012291efb7fb77f809cdf5ee",
+      "numeric_text_sha256": "1793edcd8345fa4736676c06008186d1a3ecaaf99df0c380218eaa4e0de100ec",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance1_subject3.csv",
+      "group": "conversion_input40",
+      "frames": 3945,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "522d41e9b1ac05b0960e9e235b216f97785dd6c585c86cf0c91e26dd0c65c8bb",
+      "numeric_text_sha256": "b52a0c3559322f1c869af6097c0e220e1864db2724e5501dbf045062e72e6191",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance2_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 6771,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "bd3adb105b78c134d9e57f8ad15f50b2606326cbe0683707e8e2cb4afb2f6d79",
+      "numeric_text_sha256": "bf592a42c2b46f03967f6cb68b9260b38e9d2a180d3bb8eb682a1ede915495c5",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance2_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 6771,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "2c1f4c41cb21f533206050726db044be67a30e2f49c311f9ab976ce9a7770ebc",
+      "numeric_text_sha256": "0bab82e2f3a93a876cb7ebb99b5bc3d0c5bca797546a1787bc8d3fd172f122ac",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance2_subject3.csv",
+      "group": "conversion_input40",
+      "frames": 6771,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "910f3456868e2a18b7e9437bcf015c6f010256a320a7a2f9d37030a79b2667e1",
+      "numeric_text_sha256": "e44de790531e7cbce990c0ecd6ea00f40fcbc3b1adac0bbc27d055a109d1ff3e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance2_subject4.csv",
+      "group": "conversion_input40",
+      "frames": 6771,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "e338474cfac5817dcd600e3cbf3ac43499c938e31f2f6bf0e8d7e1a4bf273f5c",
+      "numeric_text_sha256": "a77efb99eac3392b92c6bdd4d7f535c53fe4bf58f949470bc0dc1232a523530e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/dance2_subject5.csv",
+      "group": "conversion_input40",
+      "frames": 6771,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "289cd34921965b57b2c2d6d6197f97a4ee41c80a5b05a2e2e78d07de403602ac",
+      "numeric_text_sha256": "40f3aca427a311d6749002bffbf92c3ebb3460c1a10ff9c03735461bdd77c95a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fallAndGetUp1_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 5047,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "e0775f25f6ecfd7b33281ad6fea3fb9620785dee0f13e1120bb4d59f761297dd",
+      "numeric_text_sha256": "34f1b602370bd19a0982b1f2543bc1630fd29e6cce2690e799fb627bb6d322d1",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fallAndGetUp1_subject4.csv",
+      "group": "conversion_input40",
+      "frames": 5047,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "ecc2dc24b7825983b5f5a38dd5aaaada670e6ea97b0e0ea113bf8a652a6c04d5",
+      "numeric_text_sha256": "ef7fdd80e3f3420177eca37cff4be44368a1dcd3514afb58939cdf4576c73a85",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fallAndGetUp1_subject5.csv",
+      "group": "conversion_input40",
+      "frames": 5047,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "55d877b4ec81992ef387e1b477e4b4192903e360b47ef075c3d1eb59d3f8d7d7",
+      "numeric_text_sha256": "5e1d46a2e2ce2a35d30968ce6d082651eeec2793272c31b71dac5b25fc1d4c20",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fallAndGetUp2_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 4918,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "42ad3c091cf314b08562b4dec628a1a394cea707073efc8c044f376c111dad25",
+      "numeric_text_sha256": "28071201708ffe46400c6af71c3890323dc52eb791a7e468dfe610a616376c63",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fallAndGetUp2_subject3.csv",
+      "group": "conversion_input40",
+      "frames": 4918,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "2a467fd0d6e1f3ed78bad2b74daa46cb5fef0871c6b92c3a3fe8e48782fce1f9",
+      "numeric_text_sha256": "f405a92fbee5a5e5f2455a88f67ab78c829a28012d0f6e8f3335a5196ea89cb5",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fallAndGetUp3_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 3066,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "601032669f8e049001d6ebc3e7361ee7a8a92969c3d792e07cc5678aaf3f6d47",
+      "numeric_text_sha256": "f89b5635acc830850ee4573e427b83485bae6a05df1d25032aa3c62c1e78cdf1",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fight1_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 7347,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "a7a19b879200d66344cc9c98f1a7f72a70430ff69618f770fe42c779458b9726",
+      "numeric_text_sha256": "6abeacbb5a59d19433fed96c46832da38da3f436876c89baf8bb6cf2fe73221f",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fight1_subject3.csv",
+      "group": "conversion_input40",
+      "frames": 7347,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "ab6e883584f446e86a6da8c093fc451de0206f7cffe4c52008f762b9ff569d8b",
+      "numeric_text_sha256": "089a6028b64746ad8b95f32b0a235f5d41adf84a3681258ddc2fdca41cc4ab77",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fight1_subject5.csv",
+      "group": "conversion_input40",
+      "frames": 7347,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "420a7ef137699a91c147b6c3f569f3ac20b3a96ce70f900138ab9733dd31b98a",
+      "numeric_text_sha256": "28d64e5b0de544005ab1b36a1dab8b6a1326e402658738fb99fea2854707945a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fightAndSports1_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 7355,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "0cadd2951b3ade032625d3be398af0a14eb6690c173ca0937b4204331000c281",
+      "numeric_text_sha256": "8ce618fff7eaa8f019a5dcb6ad55374482a7cec5130daac7c98a55c2ce0960b3",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/fightAndSports1_subject4.csv",
+      "group": "conversion_input40",
+      "frames": 7355,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "fbcd8ed324e488ab864062f2c244c5fe3b5b987532a97dbc87d3b09da6d07aa2",
+      "numeric_text_sha256": "57714ba06ee2c79158d3b3d98836c003efd09da6cd326a5b78eeaf6e13f797c6",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/jumps1_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 7334,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "77604d23ad6068bda506089a34feba45579ee243a531288e6db99bc900743e2a",
+      "numeric_text_sha256": "9a2bea65f7f4f0d1b8630d8ce2d2930604f6b05e7f635dc1b6690f5cb2be2590",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/jumps1_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 7334,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "f9a5a015ec890511805fda055d787a90880a31e0786e36c1e40d77de4a9a52ab",
+      "numeric_text_sha256": "285747657091c6b8f9c32e9b748608fd76ac7426bd0137f2d7b057a71d735127",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/jumps1_subject5.csv",
+      "group": "conversion_input40",
+      "frames": 7334,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "e6ae89acf7ae71564b62b91f2b4cb5e2487a9add534be4a7d7947f446a6262af",
+      "numeric_text_sha256": "6fcff9e8d0be98b0f796ee036eb11755013cc3b3474d1b16f71ea7ed24925f65",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/run1_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 7135,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "e43df3d048c0ddc6163cefccbb4c781c5779fef447ce9a27abb4e11ff8bf320e",
+      "numeric_text_sha256": "05e17399f5055b813a7c5f158cfd3f2789d38624b7169048287ce54981ae7e31",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/run1_subject5.csv",
+      "group": "conversion_input40",
+      "frames": 7135,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "30447e04ecb007d86ecd095a868729582027695f63dae8a3c093ef52e462f5b9",
+      "numeric_text_sha256": "c9f18a6f447845db1f72f9addf6cf82758b0e39a914df30ac253488eec44dea7",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/run2_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 7345,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "228b46c5c7aa1d174d17e8c288cef1041dbc9889e4ed667cbae98fe5094bd3e2",
+      "numeric_text_sha256": "c5e0bc73cc0fcc893f7867cee7e61c2fe636f09253ce777b89959d0847a84bf1",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/run2_subject4.csv",
+      "group": "conversion_input40",
+      "frames": 7345,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "cac95555605167156a7c5332b0fb30b743ce22953d299261d8879d5f7098f8c2",
+      "numeric_text_sha256": "daf412713d9f8f44e2c9041dff7277b86b3f450709340bc5a7f45d4f96177b06",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/sprint1_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 8194,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "b0e50486b21854a13867a396dc1baec527620dc602bf3f15e7844fb4d7aba8c1",
+      "numeric_text_sha256": "9cb69b37f8b46ca40deadad521d7efe19640bd7d26eed39aa1a520f99ae8aabd",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/sprint1_subject4.csv",
+      "group": "conversion_input40",
+      "frames": 8194,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "316ec21441446cc854c0ac5b83237e431f9e64a548c98e94a77c9b0ccd9ad3cb",
+      "numeric_text_sha256": "2924e1e1a028d5f6417a1c46d208c74acc87b6ed29b0188e6c94161b4651de9d",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk1_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 7840,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "cbf4d3f4048e969a4fe4e1ee5b31c09fde181caf7aa91a6ce8f9cd9ec53e765c",
+      "numeric_text_sha256": "79e1c935af738bf2d2392bcb9fbe6381a6394f4f930ec5d933296aaca3f2dcd3",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk1_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 7840,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "1799ea1b65b61c9232129940ae96a0095a2f2615a625eed0e6c4bcd91908f8d5",
+      "numeric_text_sha256": "6947af3f4cfccefb8058deb15e3ff065ba84c8c7622ee0f2a56d7addea64cc5a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk1_subject5.csv",
+      "group": "conversion_input40",
+      "frames": 7840,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "fa67bb71ccfd955c26fe193f270655ecd5122cfabd47b970d917208cd0186b41",
+      "numeric_text_sha256": "bf793f72581fa3c5c4e0e37fbeaa17dd2dc74900047244e3cc45cfac34259fbd",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk2_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 7146,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "7e34f8049756c3e20cc09316952c6fd4e1ecfff939041b6301d9b39725480f64",
+      "numeric_text_sha256": "b43902953e9c58d7ccec206c57275d4a290ba7adf355b0783294399bfc39f27a",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk2_subject3.csv",
+      "group": "conversion_input40",
+      "frames": 7146,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "f0893e4c390d666ae04622f5ccc923321b1c1eb9cc4130da05763a46d4864135",
+      "numeric_text_sha256": "4ffcb006003c54faa0015798238a01eb6ecd1101633ff210b1a5c4bf9c08a28f",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk2_subject4.csv",
+      "group": "conversion_input40",
+      "frames": 7146,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "100e617eb6a8e15f9d8192d38627d85e90d5420b84976c26c39bad57b3ed65a0",
+      "numeric_text_sha256": "4530001af1faf9d6619e5849058b8dfc534793b6d2539e9d3dcb0b476b46c8f6",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk3_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 7399,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "decdafd7f1cbd0431ddc850ae0e824ec7b98651e73476d46abba103501799aa3",
+      "numeric_text_sha256": "d23a6bcb4e750a08a70848b593ac363c746ec8a3b37f75fd8f0c562bf4ec5f76",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk3_subject2.csv",
+      "group": "conversion_input40",
+      "frames": 7399,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "67a8534c8d83349d90919df39d5e9599d605efbec7bee49a78b85b0398c0e712",
+      "numeric_text_sha256": "b0c88f3843b74c498ba34a1407c678f9664b554a67507ec4434b48746bba0c08",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk3_subject3.csv",
+      "group": "conversion_input40",
+      "frames": 7399,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "402e3ae2a1789ff9cece0f70f89f04da43111867285a8550cc71f534cd91975b",
+      "numeric_text_sha256": "a30a9e58ab6186ac4bed3c4feadbf646fc8b51fb2aef4195f4e051a26c5d3b1b",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk3_subject4.csv",
+      "group": "conversion_input40",
+      "frames": 7399,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "5c3385c8a474f112ccefdaecb63432cd98bd4b10312fa44ee0a1b863aea7b65e",
+      "numeric_text_sha256": "d0c2888e455a631141a2aac7324e02528d85bea5c1f276aef9a45d18503a95e8",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk3_subject5.csv",
+      "group": "conversion_input40",
+      "frames": 7399,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "435731943f2fd769874522eed52a83396e655b5e85362f2c9970e6347fd4df63",
+      "numeric_text_sha256": "0568cd18d14ac2c4d6ed119b834309db34b0eafc47f36c22d126ebcc5a7a0405",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/g1/lafan1_supermimic/walk4_subject1.csv",
+      "group": "conversion_input40",
+      "frames": 4918,
+      "fps": 30,
+      "columns": 36,
+      "sha256": "ee418ec5a7a4177a9e524a77eecf99e9ad38a8b24d0e889e78f34a2166f2ac77",
+      "numeric_text_sha256": "690f76df575927c9545460441039da021c1c2e6f741a45214e50a8ce6b09762e",
+      "original_numeric_text_preserved": true
+    },
+    {
+      "path": "src/unisupermimic/assets/motions/lens110/heldout/cmu_91_04.csv",
+      "group": "heldout",
+      "frames": 901,
+      "fps": 50,
+      "columns": 28,
+      "sha256": "b1a1bfc3a99b8b928edb981568502f6881f1169bc71cbde17022032dbd211707",
+      "numeric_text_sha256": "f060e5d6d828f67b1a76110a7a9c7d39ea51f5de2c2fc898609068fff6995e68",
+      "original_numeric_text_preserved": true
+    }
+  ]
+}

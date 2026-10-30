@@ -1,0 +1,7 @@
+{
+  "clean_extraction": "passed",
+  "training_clips": 153,
+  "all_csv_files": 195,
+  "verified_release_assets": 3,
+  "scope": "New directory extraction from checksum-verified release archives; no network fetch yet."
+}

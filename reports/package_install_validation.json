@@ -1,0 +1,9 @@
+{
+  "distribution": "supermimicplus",
+  "version": "0.1.0",
+  "python": "3.12.3",
+  "installed_module_location": ".venv/lib/python3.12/site-packages/unisupermimic",
+  "cli": "supermimicplus-train",
+  "hydra_config_dry_run": "passed",
+  "scope": "New Python 3.12 project venv and installed wheel, with dependencies reused from the validated training runtime."
+}
