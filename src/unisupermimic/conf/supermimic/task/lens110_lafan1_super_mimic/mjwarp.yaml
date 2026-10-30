@@ -1,0 +1,12 @@
+# @package _global_
+defaults:
+- /task/lens110_lafan1_super_mimic/base
+- _self_
+training:
+  sim_backend: mjwarp
+  warp_cuda_graphs: true
+  mjwarp_epa_horizon: 128
+  mjwarp_nccdmax: 64
+env:
+  mjwarp_nconmax: 128
+  mjwarp_njmax: 512

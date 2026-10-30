@@ -1,0 +1,14 @@
+# @package _global_
+defaults:
+- /task/lens110_lafan1_super_mimic/base
+- _self_
+training:
+  sim_backend: motrix
+env:
+  events:
+    startup_context:
+      params:
+        randomize_friction: false
+    reset_context:
+      params:
+        randomize_friction: false

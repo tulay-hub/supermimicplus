@@ -1,0 +1,93 @@
+# @package _global_
+defaults:
+- /task/lens110_super_mimic/base
+- _self_
+env:
+  commands:
+    motion:
+      src_fps: 50.0
+      motion_files:
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance1_subject3.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject3.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject4.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/dance2_subject5.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject4.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp1_subject5.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp2_subject3.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fallAndGetUp3_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject3.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fight1_subject5.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/fightAndSports1_subject4.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/jumps1_subject5.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run1_subject5.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/run2_subject4.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/sprint1_subject4.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk1_subject5.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject3.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk2_subject4.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject1.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject2.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject3.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject4.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk3_subject5.csv
+      - src/unisupermimic/assets/motions/lens110/lafan1_retargeted/walk4_subject1.csv
+      motion_sha256:
+      - 7b5f01897d82cd8263d9338a4f5ffa022d08936b8f29e3776872a0deb4ae1d8b
+      - 0741aea4432a36e5378075baf476dcf2487e7911a38def7778e2860c29b17bfa
+      - 142db909ace5b59bcddb8e6e4283c0a35c0375a226f4889d0b8a7f9e8bd48db5
+      - f54b86810bcd51b558fcb15c28ad51494fb828c9f441a9cf2624fb4a0886057a
+      - f2cbd6f1bb173e0b02e5be94316b5e1ba7e63e38ee4185ac7fa6da4c33329ba5
+      - 86cfc00cc7e09511af37dbccd149c11c9ba85432cb44983355c349409388c9f8
+      - f4207fb1ffe8d437544b936ab99ff95acf27d90845bef74f2e683c66f8d7fcbf
+      - ce3ef52b1e1cf93ce28e4989494c7b588f5888824f60a691a087babadacf6150
+      - 82949172f8a19810f21f881c996ef68d9135de491812ad26216aba3942ad2d9f
+      - 455923f72c47286829b7083cb80ac8f960a4924adb80de18e178e171b9b14fc8
+      - fd3177dfe24eaf3bd4128a80e3f74a322b016345889f104ce4cbe5cfe0a9e1f9
+      - fcb6322e0763f06fb1604b7ee9bd51d0772382b58f94b84e04514f7f12d6b183
+      - 218c21acdbcc6bed131ff83fa7db860462ac62dc7441558fc7a97e9c1cc3a048
+      - 92870fb16fbb5b3df71d686f8a1b3995cf4f6b6ab6189ae35256b5e032964d48
+      - fd80c6eb8b7bdbe00a43bd6313f46963369f266c4b640b60f08455f3bf85e107
+      - 3d55a4f2a24fc26260c3013e17a0e2b1ea355ec00f0d28186dd30f9f5bc766b4
+      - 384aeb7d7f47dcbe792b69f18c180b0639770e4c078c1ec664005d9a9feb0e9c
+      - e82edc9eb7227e9acbc983ebe2da1dab51ad29f45c4919229e88a50233d21bfb
+      - 3b9e2249d2da658a3be3041393c441a9cd0f002c5f6f08a63cdb3f6f63005e74
+      - eb1751703524ed68706211db59ea8fdae541286d81428e9371b35564e23f6b55
+      - 8120534185e69a7555a20fa3224b4e93ef89601de9c84d9bc58e08698ca998e3
+      - b6da4ed95fe95e60de83b6fcb7946cdb5c2a02b891318233f988a545246104dd
+      - b5e98409909c8bb235523b2d32e02f5484a3fde0be405d617f7bb5545586b3ea
+      - 5eb8d5f21f8909285aa4bc9a8f16a38e2a9456e06c02d59fcefad5cbc99f6798
+      - 22bdc84a496fb143cc65866c5f0701f10eec0812397fcfb2f199792ec39ef4f2
+      - 6513b10567c92d49adcc36b3f7ad4bc891bddae1ba8139357eab0dc6c91dbc64
+      - a3de7b45c511c43e9ae0bb680babb22b4ac55ac5423188b8061ac5584b7a8a54
+      - 4f4618b9e4298313f03fbc4fec1ad377fb1c50894237fe6fc2c360f10a8d777f
+      - 18c3a677280267a8f9737cd505863399681f8811f52e2f01d34419e80ac71bae
+      - 2c40242a9fa0a1795342b7ca9e3261d2b9936204fde6e7ec514ec59b70470e1a
+      - 5f54a9a4e4c9bea5674566972a60c00039855ae8bb462021bf0b6d8db9e1802c
+      - fb6503432d1e1a514007cd56255e9f72d4cfcfa641e611113e0a98b2da51e7fd
+      - 061ee581c80d9058675c9212a0d797dabe0eba4bab9f1db4a2ad0b3cc48d210c
+      - a0a23241632bddc93032a1448a30cc19d0274c975da6b98ff5fb7b3ef57d19fe
+      - aefce8a0c94d31b8065d1c89f1d87d94eb3b9a3b7f0e4d46ee383cd6e350fd67
+      - f89b077eddc113dfb2df5f5ff5e2d6e1a8a423a0bfd4b01b09d7a399496e74c9
+      - 8bb9079613f934c81a148968e0835667d752f2fed7f84557a2437e1c7120869c
+      - 174d9d69b4fd6cc97f3a6148f687b2f711eff2a997024e5000f9a0889c1567a0
+      - 91be2746304469df68123f4992c725fa574e947ddab571bb3f44a69f2502b5f0
+      - 81e417d380a89f41465cf35ff61eebc9603abd57f769eafe86c350615ecc5689
+training:
+  task_name: Lens110Lafan1SuperMimic
+  play_env_num: 40
